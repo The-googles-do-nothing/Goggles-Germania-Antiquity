@@ -155,7 +155,7 @@
 	</Modifier>
 
 	<!-- Level commendation -->
-	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_CAPTURE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_CAPTURE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
@@ -165,10 +165,10 @@
 				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">MOD_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_CAPTURE_ATTACH</Argument>
+		<Argument name="ModifierId">MOD_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_CAPTURE_ATTACH</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_CAPTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COMBAT_CAPTURE">
+	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_CAPTURE_ATTACH" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_COMBAT_CAPTURE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
@@ -176,10 +176,10 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="CanCapture">true</Argument>
-		<String context="Preview">LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_PREVIEW</String>
+		<String context="Preview">LOC_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_PREVIEW</String>
 	</Modifier>
 
-	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_FRAMEA" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_FRAMEA" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
@@ -188,10 +188,31 @@
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_ARMY_ARMINIUS_FRAMEA</Argument>
 	</Modifier>
-	<Modifier id="MOD_ABILITY_COMMENDATION_ARMINIUS_COMMENDATION_FRAMEA" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_RESOURCE_DAMAGE">
+	<Modifier id="MOD_ABILITY_COMMENDATION_ARMINIUS_FRAMEA" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_RESOURCE_DAMAGE">
 		<Argument name="Amount">1</Argument>
 		<Argument name="ResourceClassType">RESOURCECLASS_EMPIRE</Argument>
 		<String context="Preview">LOC_ABILITY_ARMY_ARMINIUS_FRAMEA_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_POLEARMS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_ARMY_ARMINIUS_FRAMEA</Argument>
+	</Modifier>
+
+
+	<Modifier id="MOD_ABILITY_COMMENDATION_ARMINIUS_POLEARMS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">10</Argument>
+		<String context="Preview">LOC_ABILITY_ARMY_ARMINIUS_POLEARMS_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>

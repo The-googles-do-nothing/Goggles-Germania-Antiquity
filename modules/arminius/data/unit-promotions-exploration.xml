@@ -20,7 +20,6 @@
 	</UnitPromotionDisciplines>
 	<UnitPromotionClassSets>
 		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO"/>
-		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_SERVICE"/>
 	</UnitPromotionClassSets>
 	<UnitPromotionDisciplineDetails>
 		<!-- ARMY OTTO COMMENDATIONS -->
@@ -44,6 +43,7 @@
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_GARRISON" PrereqUnitPromotion="PROMOTION_ARMY_DEFILADE"/>
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_ADVANCEMENT" PrereqUnitPromotion="PROMOTION_ARMY_ENFILADE"/>
 		
+		<!-- Level 5 -->
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_RESOLUTE" PrereqUnitPromotion="PROMOTION_ARMY_GARRISON" GrantsCommendation="true"/>
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_RESOLUTE" PrereqUnitPromotion="PROMOTION_ARMY_ADVANCEMENT" GrantsCommendation="true"/>
 		

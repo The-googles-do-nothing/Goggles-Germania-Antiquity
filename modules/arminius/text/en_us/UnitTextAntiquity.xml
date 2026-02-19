@@ -115,27 +115,21 @@
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FIELD_MEDIC_DESCRIPTION">
 			<Text>Infantry Units within the Command Radius gain +10 Healing in enemy and neutral territory.</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_FIELD_MEDIC_NAME">
-			<Text>Field Medic</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_ARMY_FIELD_ARMINIUS_MEDIC_DESCRIPTION">
-			<Text>Infantry Units within the Command Radius gain +10 Healing in enemy and neutral territory.</Text>
-		</Row>
-
+		
 		<!-- Level 5 -->
-		<Row Tag="LOC_PROMOTION_ARMY_AREA_ARMINIUS_DENIAL_NAME">
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AREA_DENIAL_NAME">
 			<Text>Area Denial</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_AREA_ARMINIUS_DENIAL_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AREA_DENIAL_DESCRIPTION">
 			<Text>The Command Radius applies Zone of Control to enemy Land Units.</Text>
 		</Row>
 
 		<!-- Level Comendation -->
-		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_FRAMEA_NAME">
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_FRAMEA_NAME">
 			<Text>Framea</Text>
 		</Row>
 
-		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_FRAMEA_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_FRAMEA_DESCRIPTION">
 			<Text>+1 [icon:NAR_REW_COMBAT] Combat Strength for every unique [icon:RADIAL_RESOURCES] Empire Resource for Infantry Units within the Command Radius</Text>
 		</Row>
 
@@ -143,14 +137,26 @@
 			<Text>+{1_Amount} for unique Empire Resources for Infantry Units within the Command Radius</Text>
 		</Row>
 
-		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_NAME">
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_NAME">
 			<Text>Haftaz (captive, bound)</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_DESCRIPTION">
 			<Text>Infantry Units the Command Radius capture defeaded land Units and places under your control.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_COMMENDATION_HAFTAZ_PREVIEW">
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_HAFTAZ_PREVIEW">
 			<Text>Infantry Unit defeating  Units captures that Unit under your control.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_POLEARMS_NAME">
+			<Text>Polearms</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_POLEARMS_DESCRIPTION">
+			<Text>+1 [icon:NAR_REW_COMBAT] Combat Strength against Cavalry for Infantry Units within the Command Radius</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_POLEARMS_DESCRIPTION">
+			<Text>+{1_Amount} against Cavalry for Infantry Units within the Command Radius</Text>
 		</Row>
 
 	</EnglishText>
