@@ -127,6 +127,7 @@
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>arminius/data/unit-promotions-exploration.xml</Item>
+					<Item>arminius/data/unit-promotions-gameeffects-exploration.xml</Item>	
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>arminius/text/en_us/UnitTextExploration.xml</Item>
@@ -155,6 +156,12 @@
 				<UpdateIcons>
 					<Item>arminius/data/icons/unit-icons.xml</Item>
 				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>arminius/data/config/config.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>arminius/text/en_us/UnitTextAntiquity.xml</Item>
+				</UpdateText>
 			</Actions>
 		</ActionGroup>
 		<!-- Age specific updates -->

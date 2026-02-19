@@ -6,14 +6,13 @@
 			<Text>Hermann (Man of War)</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HERMANN_JEC_DESCRIPTION">
-			<Text>Germania's Unique Army Commander. Ageless. He has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree that replaces Logistics.  Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after activating Sigimer of the Cherusci Folc Great person. Persists across Age Transition.</Text>
+			<Text>Germania's Unique Army Commander. Ageless. He has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree. Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after activating Sigimer of the Cherusci Folc Great person. Persists across Age Transition.</Text>
 		</Row>
 		<!-- Unique -->
 		<Row Tag="LOC_DISCIPLINE_ARMY_ARMINIUS_NAME">
 			<Text>Arminius</Text>
 		</Row>
 		<!-- Level 0 -->
-
 
 		<!-- Level 1 -->
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_ROUT_NAME">
@@ -68,45 +67,17 @@
 		</Row>
 
 		<!-- Level 3 -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AMPHIBIOUS_NAME">
-			<Text>Amphibious</Text>
-		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AMPHIBIOUS_DESCRIPTION">
-			<Text>Infantry Units within the Command Radius suffer no Combat penalties when attacking while embarked. It costs 1 Movement to Embark and Disembark.</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_AMPHIBIOUS_NAME">
-			<Text>Amphibious</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_AMPHIBIOUS_DESCRIPTION">
-			<Text>Infantry Units within the Command Radius suffer no Combat penalties when attacking while embarked. It costs 1 Movement to Embark and Disembark.</Text>
-		</Row>
-
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_SURVIVAL_TRAINING_NAME">
-			<Text>Survival Training</Text>
-		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_SURVIVAL_TRAINING_DESCRIPTION">
-			<Text>Infantry Units within the Command Radius gain the Commando ability. Terrain combat bonuses are doubled, and Infantry Units can move and attack through cliffs.</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_ARMINIUS_COMMANDO_NAME">
-			<Text>Commando</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_ARMINIUS_COMMANDO_DESCRIPTION">
-			<Text>Infantry Units within the Command Radius gain the Commando ability. Terrain combat bonuses are doubled, and Infantry Units can move and attack through cliffs.</Text>
-		</Row>
-
-		<!-- Level 4 -->
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LOOTING_NAME">
 			<Text>Looting</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_LOOTING_DESCRIPTION">
-			<Text>+50% Yield and HP from Infantry Units pillaging within the Command Radius.</Text>
+			<Text>+100% Yield and HP from Infantry Units pillaging within the Command Radius.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_LOOTING_NAME">
 			<Text>Looting</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_LOOTING_DESCRIPTION">
-			<Text>+50% Yield and HP from Infantry Units pillaging.</Text>
+			<Text>+100% Yield and HP from Infantry Units pillaging.</Text>
 		</Row>
 
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FIELD_MEDIC_NAME">
@@ -115,13 +86,26 @@
 		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FIELD_MEDIC_DESCRIPTION">
 			<Text>Infantry Units within the Command Radius gain +10 Healing in enemy and neutral territory.</Text>
 		</Row>
+		<!-- Level 4 -->
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_RESOLUTE_NAME">
+			<Text>Resolute</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_RESOLUTE_DESCRIPTION">
+			<Text>Infantry Units within the Command Radius heal 10 HP after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_RESOLUTE_NAME">
+			<Text>Resolute</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_RESOLUTE_DESCRIPTION">
+			<Text>Infantry heal {Amount} HP after attacking.</Text>
+		</Row>
 		
 		<!-- Level 5 -->
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AREA_DENIAL_NAME">
-			<Text>Area Denial</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_REGIMENTS_NAME">
+			<Text>Regiments</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_AREA_DENIAL_DESCRIPTION">
-			<Text>The Command Radius applies Zone of Control to enemy Land Units.</Text>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_REGIMENTS_DESCRIPTION">
+			<Text>+2 Unit Slots and faster reinforcement for this Commander.</Text>
 		</Row>
 
 		<!-- Level Comendation -->
@@ -151,13 +135,7 @@
 			<Text>Polearms</Text>
 		</Row>
 
-		<Row Tag="LOC_PROMOTION_COMMENDATION_ARMINIUS_POLEARMS_DESCRIPTION">
-			<Text>+1 [icon:NAR_REW_COMBAT] Combat Strength against Cavalry for Infantry Units within the Command Radius</Text>
-		</Row>
 
-		<Row Tag="LOC_ABILITY_ARMY_ARMINIUS_POLEARMS_DESCRIPTION">
-			<Text>+{1_Amount} against Cavalry for Infantry Units within the Command Radius</Text>
-		</Row>
 
 	</EnglishText>
 </Database>

@@ -31,7 +31,7 @@
 		<Row UnitAbilityType="ABILITY_HERMANN_JEC" Name="LOC_ABILITY_HERMANN_JEC_NAME" Description="LOC_ABILITY_HERMANN_JEC_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_HERMANN_JEC" ModifierId="MOD_ARMINIUS_RESILIENCE"/>
+		<Row UnitAbilityType="ABILITY_HERMANN_JEC" ModifierId="MOD_HERMANN_ADJUST_RESPAWN_SPEED"/>
 	</UnitAbilityModifiers>	
 
 </Database>

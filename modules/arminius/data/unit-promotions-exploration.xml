@@ -10,55 +10,58 @@
 		<Row Type="DISCIPLINE_ARMY_OTTO" Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
 		<!-- PROMOTION -->
 
+		<!-- COMMENDATION -->
+		<Row Type="DISCIPLINE_ARMY_OTTO_COMMENDATION_POLEARMS" Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
+		<Row Type="PROMOTION_COMMENDATION_OTTO_POLEARMS" Kind="KIND_PROMOTION"/>
+
+		<!-- ARMY OTTO PROMOTION -->
+		<Row Type="ABILITY_ARMY_OTTO_POLEARMS" Kind="KIND_ABILITY"/>
+
 	</Types>
 	<UnitPromotionClasses>
 
 	</UnitPromotionClasses>
 	<UnitPromotionDisciplines>
 		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" Name="LOC_DISCIPLINE_ARMY_OTTO_NAME" BackgroundImage="cPromo_bg_army_assault.png"/>	
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO_COMMENDATION_POLEARMS" Name="LOC_PROMOTION_COMMENDATION_OTTO_POLEARMS_NAME" BackgroundImage=""/>
 
 	</UnitPromotionDisciplines>
 	<UnitPromotionClassSets>
 		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO_COMMENDATION_POLEARMS"/>
+		<Row PromotionClassType="PROMOTION_CLASS_HERMANN_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_MANEUVER"/>
 	</UnitPromotionClassSets>
 	<UnitPromotionDisciplineDetails>
 		<!-- ARMY OTTO COMMENDATIONS -->
-
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO_COMMENDATION_POLEARMS" UnitPromotionType="PROMOTION_COMMENDATION_OTTO_POLEARMS"/>
+		
 		<!-- ARMY OTTO PROMOTION -->
 		<!-- Level 0 -->
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_MOBILITY"/>
+
 		<!-- Level 1 -->
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_BULWARK" PrereqUnitPromotion="PROMOTION_ARMY_MOBILITY"/>
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_STORM" PrereqUnitPromotion="PROMOTION_ARMY_MOBILITY"/>
-		
+
 		<!-- Level 2 -->
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_HOLD_THE_LINE" PrereqUnitPromotion="PROMOTION_ARMY_BULWARK"/>
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_SHOCK_TACTICS" PrereqUnitPromotion="PROMOTION_ARMY_STORM"/>
-		
+
 		<!-- Level 3 -->
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_DEFILADE" PrereqUnitPromotion="PROMOTION_ARMY_HOLD_THE_LINE"/>
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_ENFILADE" PrereqUnitPromotion="PROMOTION_ARMY_SHOCK_TACTICS"/>
-		
+
 		<!-- Level 4 -->
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_GARRISON" PrereqUnitPromotion="PROMOTION_ARMY_DEFILADE"/>
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_ADVANCEMENT" PrereqUnitPromotion="PROMOTION_ARMY_ENFILADE"/>
-		
+
 		<!-- Level 5 -->
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_RESOLUTE" PrereqUnitPromotion="PROMOTION_ARMY_GARRISON" GrantsCommendation="true"/>
-		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_OTTO" UnitPromotionType="PROMOTION_ARMY_RESOLUTE" PrereqUnitPromotion="PROMOTION_ARMY_ADVANCEMENT" GrantsCommendation="true"/>
-		
+
 	</UnitPromotionDisciplineDetails>
 	<UnitPromotions>
-
+		<!-- ARMY OTTO COMMENDATIONS -->
+		<Row UnitPromotionType="PROMOTION_COMMENDATION_OTTO_POLEARMS" Name="LOC_PROMOTION_COMMENDATION_OTTO_POLEARMS_NAME" Description="LOC_PROMOTION_COMMENDATION_OTTO_POLEARMS_DESCRIPTION" Commendation="true" />
+	
 	</UnitPromotions>
 	<UnitPromotionModifiers>
-
+		<Row UnitPromotionType="PROMOTION_COMMENDATION_OTTO_POLEARMS" ModifierId="MOD_PROMOTION_COMMENDATION_OTTO_POLEARMS"/>
 	</UnitPromotionModifiers>
 	<UnitAbilities>
-
-
+		<Row UnitAbilityType="ABILITY_ARMY_OTTO_POLEARMS" Name="LOC_ABILITY_ARMY_OTTO_POLEARMS_NAME" Description="LOC_ABILITY_ARMY_OTTO_POLEARMS_DESCRIPTION" Inactive="true" Permanent="false"/>
+		
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-
+		<Row UnitAbilityType="ABILITY_ARMY_OTTO_POLEARMS" ModifierId="MOD_ABILITY_COMMENDATION_OTTO_POLEARMS"/>
 	</UnitAbilityModifiers>
 </Database>

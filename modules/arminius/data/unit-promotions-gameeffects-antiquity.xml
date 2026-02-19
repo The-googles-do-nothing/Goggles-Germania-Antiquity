@@ -75,37 +75,6 @@
 	</Modifier>
 
 	<!-- Level 3 -->
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_SURVIVAL_TRAINING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
-			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
-				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_ARMINIUS_DOUBLE_TERRAIN_COMBAT_BONUS_AND_INGORE_CLIFFS</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_ABILITY_ARMINIUS_IGNORE_CLIFFS" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_IGNORE_MOVEMENT_OBSTACLE">
-		<Argument name="Obstacle">OBSTACLE_CLIFFS</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_AMPHIBIOUS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
-			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
-				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_AMPHIBIOUS</Argument>
-	</Modifier>
-
-	<!-- Level 4 -->
 	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_LOOTING" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
@@ -142,16 +111,40 @@
 		<Argument name="TerritoryTypes">NEUTRAL_TERRITORY, ENEMY_TERRITORY</Argument>
 	</Modifier>
 
-	<!-- Level 5 -->
-	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_AREA_DENIAL" collection="COLLECTION_ALL_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<!-- Level 4 -->
+	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_RESOLUTE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
-			<Requirement type="REQUIREMENT_UNIT_IS_ENEMY_OF_OWNER"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_ARMY_ARMINIUS_RESOLUTE</Argument>
+	</Modifier>
+	<Modifier id="MOD_ABILITY_ARMY_ARMINIUS_RESOLUTE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_HEAL">
+		<Argument name="AttackAmount">10</Argument>
+		<Argument name="RequiresKill">false</Argument>
+	</Modifier>
+
+	<!-- Level 5 -->
+	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_REGIMENTS_CAPACITY" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_UNIT_CAPACITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ARMINIUS</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+	<Modifier id="MOD_PROMOTION_ARMY_ARMINIUS_REGIMENTS_REINFORCE_SPEED" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_UNIT_REINFORCE_SPEED">
+		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
 				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ARMINIUS</Argument>
+			</Requirement>
 		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_UNIT_AFFECTED_BY_ZOC</Argument>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 	<!-- Level commendation -->
@@ -192,27 +185,6 @@
 		<Argument name="Amount">1</Argument>
 		<Argument name="ResourceClassType">RESOURCECLASS_EMPIRE</Argument>
 		<String context="Preview">LOC_ABILITY_ARMY_ARMINIUS_FRAMEA_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="MOD_PROMOTION_COMMENDATION_ARMINIUS_POLEARMS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_ARMY_ARMINIUS_FRAMEA</Argument>
-	</Modifier>
-
-
-	<Modifier id="MOD_ABILITY_COMMENDATION_ARMINIUS_POLEARMS" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Amount">10</Argument>
-		<String context="Preview">LOC_ABILITY_ARMY_ARMINIUS_POLEARMS_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>
