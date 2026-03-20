@@ -6,7 +6,7 @@
 
 
 	<!-- CODANUS -->
-	<Modifier id="MOD_JEC_CODANUS_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
+	<Modifier id="MOD_JEC_CODANUS_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
 				<Argument name="Tags">WATER</Argument>
