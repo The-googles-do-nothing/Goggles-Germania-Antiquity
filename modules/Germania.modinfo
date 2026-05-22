@@ -67,50 +67,6 @@
 			</Actions>
 		</ActionGroup>
 		<!-- Germania -->
-        <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
-            <Actions>
-                <UpdateDatabase>
-					<Item>data/civilizations-shared.xml</Item>
-					<Item>data/civilizations-shared-gameeffects.xml</Item>
-					<Item>data/civilizations-legacy.xml</Item>
-					<Item>data/loading-info-antiquity.xml</Item>
-
-					<Item>data/traditions.xml</Item>
-					<Item>data/traditions-gameeffects.xml</Item>
-					
-					<Item>data/unlocks-syncretism.xml</Item>
-					<Item>data/unlocks.xml</Item>
-
-
-					<Item>data/unlocks-base-standard.xml</Item>
-
-                </UpdateDatabase>
-                <UpdateText>
-					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
-                </UpdateText>
-                <ImportFiles>
-                    <Item>icons/civ_sym_germania_jec</Item>
-					<Item>icons/civ_sym_germania_jec.png</Item>
-					<Item>icons/civ_line_germania_jec.png</Item>
-                    <Item>icons/buildicon_herrenhofe_jec.png</Item>		
-					<Item>icons/unitflag_folc_jec.png</Item>
-					<Item>icons/unitflag_suebi_jec.png</Item>
-					<Item>icons/unitflag_suebi_jec_2.png</Item>
-					<Item>icons/unitflag_suebi_jec_3.png</Item>
-					<Item>icons/cult_germania_jec.png</Item>
-					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
-					<Item>icons/resicon_amber.png</Item>
-                </ImportFiles>
-                <UpdateIcons>
-                    <Item>data/icons/Germania.xml</Item>
-					<Item>data/icons/wonder-icons.xml</Item>
-					<Item>data/icons/resource-icons.xml</Item>
-                </UpdateIcons>
-                <ScenarioScripts>
-                </ScenarioScripts>
-            </Actions>
-        </ActionGroup>
 		<ActionGroup id="age-antiquity-persist-arminius" scope="game" criteria="antiquity-age-persist">
 			<Actions>
 				<UpdateIcons>
@@ -177,42 +133,55 @@
 			</Actions>
 		</ActionGroup>
 		<!-- Age specific updates -->
-		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
-			<Actions>
-				<UpdateArt>
-				</UpdateArt>
-				<UpdateDatabase>
-					
+        <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
 					<Item>data/requirement-sets.xml</Item>
-					<Item>data/constructibles-gameeffects.xml</Item>
-					<Item>data/constructibles.xml</Item>
-					<Item>data/religion.xml</Item>
 
-					<Item>data/wonders.xml</Item>
-				</UpdateDatabase>
+					<Item>data/civilizations-shared.xml</Item>
+					<Item>data/civilizations-shared-gameeffects.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/loading-info-antiquity.xml</Item>
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
+					<Item>data/unlocks.xml</Item>
+					<Item>data/unlocks-base-standard.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+                </UpdateText>
                 <ImportFiles>
-					
+                    <Item>icons/civ_sym_germania_jec</Item>
+					<Item>icons/civ_sym_germania_jec.png</Item>
+					<Item>icons/civ_line_germania_jec.png</Item>
+                    <Item>icons/buildicon_herrenhofe_jec.png</Item>		
+					<Item>icons/unitflag_folc_jec.png</Item>
+					<Item>icons/unitflag_suebi_jec.png</Item>
+					<Item>icons/unitflag_suebi_jec_2.png</Item>
+					<Item>icons/unitflag_suebi_jec_3.png</Item>
+					<Item>icons/cult_germania_jec.png</Item>
+					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
+					<Item>icons/resicon_amber.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-
+                    <Item>data/icons/Germania.xml</Item>
+					<Item>data/icons/wonder-icons.xml</Item>
+					<Item>data/icons/resource-icons.xml</Item>
                 </UpdateIcons>
-				<UpdateText>
-					<Item>text/en_us/CityNamesText.xml</Item>
-					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/CitizenNamesText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/GreatPeopleText.xml</Item>
-					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>	
-					<Item>text/en_us/WonderText.xml</Item>
-				</UpdateText>
-			</Actions>
-		</ActionGroup>
+                <ScenarioScripts>
+                </ScenarioScripts>
+            </Actions>
+        </ActionGroup>
+
+
 		<ActionGroup id="antiquity-age-current-Germania" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/AI_Antiquity.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
 					<Item>data/citizen-names.xml</Item>
@@ -243,6 +212,35 @@
                 </UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
+		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
+			<Actions>
+				<UpdateArt>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/constructibles-gameeffects.xml</Item>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/religion.xml</Item>
+					<Item>data/wonders.xml</Item>
+				</UpdateDatabase>
+                <ImportFiles>
+					
+                </ImportFiles>
+                <UpdateIcons>
+
+                </UpdateIcons>
+				<UpdateText>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/GreatPeopleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>	
+					<Item>text/en_us/WonderText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+
 		<ActionGroup id="age-exploration-main-Germania" scope="game" criteria="exploration-age-current">
 			<Actions>
 				<UpdateDatabase>

@@ -16,6 +16,9 @@
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" MaxWorldInstances="1" AdjacentResource="RESOURCE_SALT" />    
 	</Wonders>
+	<TypeTags>
+		<Row Type="WONDER_HASELGEBRIGE_SALT_MINE" Tag="AGELESS"/>
+	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Wonders -->
 		<Row ConstructibleType="WONDER_HASELGEBRIGE_SALT_MINE" DistrictType="DISTRICT_WONDER"/>

@@ -26,7 +26,11 @@
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_GERMANIA_JEC_ABILITY"/>
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_EX"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST_TOT_MO"/>
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC_TOT_EX"/>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC_TOT_MO"/>
 	</CivilizationTraits>
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
