@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_FUROR_TEUTONICUS_HAPPINESS_ON_UNIT_DEFEAT"/>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_CIV_WONDER_PRODUCTION_GERMANIA"/>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_FUROR_TEUTONICUS_GRANARY_GREAT_WORKS_SLOTS"/>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_FUROR_TEUTONICUS_FISHING_GREAT_WORKS_SLOTS"/>
+	</TraitModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GERMANIA_JEC" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GERMANIA_JEC" RequirementId="REQ_PLAYER_HAS_TRAIT_GERMANIA_JEC" />
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_GERMANIA_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_GERMANIA_JEC" Name="TraitType" Value="TRAIT_GERMANIA_JEC" />
+	</RequirementArguments>
+</Database>

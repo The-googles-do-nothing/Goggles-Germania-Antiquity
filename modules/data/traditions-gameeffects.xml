@@ -33,6 +33,23 @@
 		<Argument name="ConstructibleAdjacency">GalstarWildcardTundraHappiness</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION</String>
 	</Modifier>
+	<!-- ==================================================	-->
+	<!--	EXPLORATION									-->
+	<!-- ==================================================	-->
+
+
+
+	
+	<!-- ==================================================	-->
+	<!--	Unlock Syncretism Traditions				-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_UNLOCK_GERMANIA_JEC_SYNCRETISM_EXPLORATION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION</Argument>
+	</Modifier>
+	<Modifier id="MOD_UNLOCK_GERMANIA_JEC_SYNCRETISM_MODERN" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+		<Argument name="Tradition">TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN</Argument>
+	</Modifier>
+
 
 
 </GameEffects>

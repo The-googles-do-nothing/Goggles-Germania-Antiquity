@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Types>
-		<!-- Antiquity -->
-		<Row Type="TRADITION_GERMANIA_CODANNOVIA_I" Kind="KIND_TRADITION"/>
-		<Row Type="TRADITION_GERMANIA_ALL_MEN" Kind="KIND_TRADITION"/>
-		<Row Type="TRADITION_GERMANIA_GALSTAR" Kind="KIND_TRADITION"/>
-		<!-- Exploration -->
-		<Row Type="TRADITION_GERMANIA_CODANNOVIA_II" Kind="KIND_TRADITION"/>
-		<Row Type="TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION" Kind="KIND_TRADITION" />
-		<!-- Modern -->
-		<Row Type="TRADITION_GERMANIA_GALSTAR_II" Kind="KIND_TRADITION"/>
-		<Row Type="TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN" Kind="KIND_TRADITION" />
-	</Types>
-	<UnitAbilities>
-
-	</UnitAbilities>
-	<UnitAbilityModifiers>
-
-	</UnitAbilityModifiers>
 	<Traditions>
 		<!-- Antiquity -->
 		<Row TraditionType="TRADITION_GERMANIA_CODANNOVIA_I" Name="LOC_TRADITION_GERMANIA_CODANNOVIA_NAME" Description="LOC_TRADITION_GERMANIA_CODANNOVIA_DESCRIPTION" TraitType="TRAIT_GERMANIA_JEC" AgeType="AGE_ANTIQUITY" CultureSlotType="TRADITION_CULTURE_SLOT"/>
@@ -30,26 +12,24 @@
 		<Row TraditionType="TRADITION_GERMANIA_GALSTAR_II" Name="LOC_TRADITION_GERMANIA_GALSTAR_NAME" Description="LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION" TraitType="TRAIT_GERMANIA_JEC" AgeType="AGE_MODERN" CultureSlotType="TRADITION_CULTURE_SLOT" ObsoletesTraditionType="TRADITION_GERMANIA_CODANNOVIA_II"/>
 		<Row TraditionType="TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN" Name="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_NAME" Description="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_DESCRIPTION" TraitType="TRAIT_GERMANIA_JEC" AgeType="AGE_MODERN" CultureSlotType="TRADITION_CULTURE_SLOT" IgnoreInitializeUnlock="true" AllowInitializeAdvancedStart="true"/>
 	</Traditions>
-	<TraditionModifiers>
-		<!-- Antiquity -->
-		<Row TraditionType="TRADITION_GERMANIA_CODANNOVIA_I" ModifierId="TRADITION_GERMANIA_CODANNOVIA_MOD_PURCHASE_WAREHOUSE_EFFICIENCY"/>
-		<Row TraditionType="TRADITION_GERMANIA_ALL_MEN" ModifierId="TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS"/>
-		<Row TraditionType="TRADITION_GERMANIA_GALSTAR" ModifierId="TRADITION_GERMANIA_GALSTAR_MOD_RELIGIOUS_HAPPIENESS"/>
-		<!-- Exploration -->
-		<Row TraditionType="TRADITION_GERMANIA_CODANNOVIA_II" ModifierId="TRADITION_GERMANIA_ALL_MEN_MOD_PROJECT_FARM_FISH_TOWN_YIELDS"/>
-		<Row TraditionType="TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION" ModifierId="TRADITION_GERMANIA_CODANNOVIA_MOD_PURCHASE_WAREHOUSE_EFFICIENCY"/>
-		<!-- Modern -->
-		<Row TraditionType="TRADITION_GERMANIA_GALSTAR_II" ModifierId="TRADITION_GERMANIA_GALSTAR_MOD_RELIGIOUS_HAPPIENESS"/>
-		<Row TraditionType="TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN" ModifierId="TRADITION_GERMANIA_CODANNOVIA_MOD_PURCHASE_WAREHOUSE_EFFICIENCY"/>
-	</TraditionModifiers>
+	<ProgressionTreeNodes>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" ProgressionTree="TREE_CIVICS_AQ_GERMANIA_JEC" Cost="150" Name="LOC_CIVIC_GERMANIA_CODANUS_NAME" IconString="cult_germania_jec" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" ProgressionTree="TREE_CIVICS_AQ_GERMANIA_JEC" Cost="250" Name="LOC_CIVIC_GERMANIA_BARBARICUM_NAME" IconString="cult_germania_jec" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" ProgressionTree="TREE_CIVICS_AQ_GERMANIA_JEC" Cost="250" Name="LOC_CIVIC_GERMANIA_MIDGARD_NAME" IconString="cult_germania_jec" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" ProgressionTree="TREE_CIVICS_AQ_GERMANIA_JEC" Cost="400" Name="LOC_CIVIC_GERMANIA_WULFAZ_NAME" IconString="cult_germania_jec" />
+	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" ProgressionTree="TREE_CIVICS_EX_TEST_OF_TIME" Cost="800" Name="LOC_NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE_NAME" IconString="cult_germania_jec"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION" ProgressionTree="TREE_CIVICS_MO_TEST_OF_TIME" Cost="2000" Name="LOC_NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION_NAME" IconString="cult_germania_jec"/>
+	
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
 
-	<UnitClass_Abilities>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_ALL_MEN" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_GALSTAR" UnlockDepth="1"/>
+		
 
-	</UnitClass_Abilities>
-	<UnitAbilities>
-
-	</UnitAbilities>
-	<UnitAbilityModifiers>
-
-	</UnitAbilityModifiers>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" TargetKind="KIND_TRADITION" TargetType="TRADITION_QUINQUEREME_II" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION" TargetKind="KIND_TRADITION" TargetType="TRADITION_GAULOS_II" UnlockDepth="1"/>
+	</ProgressionTreeNodeUnlocks>
 </Database>

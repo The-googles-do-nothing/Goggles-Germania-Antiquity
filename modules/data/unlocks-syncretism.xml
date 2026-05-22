@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<CivilizationSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_NORMAN" />
+	</CivilizationSyncretismUnlocks>
+	<LeaderSyncretismUnlocks>
+		<Row LeaderType="LEADER_CHARLEMAGNE" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Row LeaderType="LEADER_FRIEDRICH" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Row LeaderType="LEADER_CATHERINE" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Row LeaderType="LEADER_FRIEDRICH_ALT" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+	</LeaderSyncretismUnlocks>
+	<CivSelfSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockType="TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION" Kind="KIND_TRADITION" Age="AGE_EXPLORATION" ModifierID="MOD_UNLOCK_GERMANIA_JEC_SYNCRETISM_EXPLORATION" />
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_EXPLORATION" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockType="TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN" Kind="KIND_TRADITION" Age="AGE_MODERN" ModifierID="MOD_UNLOCK_GERMANIA_JEC_SYNCRETISM_MODERN" />
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_MODERN" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
+	</CivSelfSyncretismUnlocks>
+</Database>

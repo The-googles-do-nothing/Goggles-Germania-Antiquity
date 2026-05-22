@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_FUROR_TEUTONICUS_HAPPINESS_ON_UNIT_DEFEAT"/>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_FUROR_TEUTONICUS_GRANARY_GREAT_WORKS_SLOTS"/>
+		<Row TraitType="TRAIT_GERMANIA_JEC_ABILITY" ModifierId="MOD_JEC_FUROR_TEUTONICUS_FISHING_GREAT_WORKS_SLOTS"/>
+	</TraitModifiers>
+	<Civilizations>
+		<!-- Replace civics tree. -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_GERMANIA_JEC" />
+			<Set UniqueCultureProgressionTree="TREE_CIVICS_EX_TEST_OF_TIME"/>
+		</Update>
+	</Civilizations>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TraitType="TRAIT_ANACHRONISTIC_CIV" />
+	</CivilizationTraits>
+</Database>

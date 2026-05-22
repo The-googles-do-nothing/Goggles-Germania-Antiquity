@@ -11,18 +11,7 @@
 	</Unlocks>
 	<UnlockRewards>
 	</UnlockRewards>
-	<RequirementSets>
-		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-	</RequirementSets>
-	<Requirements>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
-	</Requirements>
-	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA" Name="CivilizationType" Value="CIVILIZATION_GERMANIA_JEC"/>
-	</RequirementArguments>
-	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA" RequirementId="REQ_CIV_IS_GERMANIA"/>
-	</RequirementSetRequirements>
+
 	<UnlockRequirements>
 
 	</UnlockRequirements>
