@@ -146,7 +146,7 @@
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/unlocks.xml</Item>
-					<Item>data/unlocks-base-standard.xml</Item>
+					<!-- <Item>data/unlocks-base-standard.xml</Item> -->
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
@@ -183,7 +183,7 @@
 				<UpdateDatabase>
 					<Item>data/civilizations-antiquity.xml</Item>
 					<Item>data/AI_Antiquity.xml</Item>
-					<Item>data/unlocks-antiquity.xml</Item>
+					<!-- <Item>data/unlocks-antiquity.xml</Item> -->
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
 					<Item>data/greatpeople.xml</Item>

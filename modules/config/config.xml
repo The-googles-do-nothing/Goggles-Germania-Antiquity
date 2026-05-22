@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Leaders>
-	</Leaders>
-	<LeaderItems>
-
-	</LeaderItems>
-	<LeaderTags>
-
-	</LeaderTags>
-	<LeaderQuotes>
-
-	</LeaderQuotes>
-	<LeaderCivilizationBias>
-
-	</LeaderCivilizationBias>
 	<Civilizations>
 		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" CivilizationName="LOC_CIVILIZATION_GERMANIA_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_GERMANIA_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GERMANIA_JEC_DESCRIPTION" CivilizationIcon="civ_sym_germania_jec.png"/>
 	</Civilizations>
