@@ -78,6 +78,8 @@
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_DESCRIPTION">
 			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
 		</Row>
+
+
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_NAME">
 			<Text>All Men</Text>
 		</Row>
@@ -89,8 +91,43 @@
 			<Text>Galstar</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION">
-			<Text>Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
+			<Text>Happiness Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
 		</Row>
-
+		<!-- ==================================================	-->
+		<!--	EXPLORATION								-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE_NAME">
+			<Text>Germania Renaissance</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_NAME">
+			<Text>Codannovia II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_DESCRIPTION">
+			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. +1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_PREVIEW">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION">
+			<Text>Happiness Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
+		</Row>
+		<!-- ==================================================	-->
+		<!--	MODERN								-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION_NAME">
+			<Text>Germania Modernization</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_NAME">
+			<Text>Codannovia III</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_DESCRIPTION">
+			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. +2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_PREVIEW">
+			<Text>+2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_DESCRIPTION">
+			<Text>Happiness Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
+		</Row>
 	</EnglishText>
 </Database>

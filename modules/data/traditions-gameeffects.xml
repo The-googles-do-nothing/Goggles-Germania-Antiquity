@@ -29,16 +29,38 @@
 	</Modifier>
 
 	<!-- GALSTAR -->
-	<Modifier id="TRADITION_GERMANIA_GALSTAR_MOD_RELIGIOUS_HAPPIENESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+	<Modifier id="TRADITION_GERMANIA_GALSTAR_MOD_TUNDRA_HAPPIENESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 		<Argument name="ConstructibleAdjacency">GalstarWildcardTundraHappiness</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_GALSTAR_DESCRIPTION</String>
 	</Modifier>
 	<!-- ==================================================	-->
 	<!--	EXPLORATION									-->
 	<!-- ==================================================	-->
-
-
-
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_II_MOD_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">WAREHOUSE</Argument>
+		<Argument name="Percent">100</Argument>
+		<String context="Description">LOC_TRADITION_GERMANIA_CODANNOVIA_II_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_II_MOD_WAREHOUSE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">WAREHOUSE</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">LOC_TRADITION_GERMANIA_CODANNOVIA_II_PREVIEW</String>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--	MODERN										-->
+	<!-- ==================================================	-->
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_III_MOD_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">WAREHOUSE</Argument>
+		<Argument name="Percent">100</Argument>
+		<String context="Description">LOC_TRADITION_GERMANIA_CODANNOVIA_III_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_III_MOD_WAREHOUSE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="Tag">WAREHOUSE</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_TRADITION_GERMANIA_CODANNOVIA_III_PREVIEW</String>
+	</Modifier>
 	
 	<!-- ==================================================	-->
 	<!--	Unlock Syncretism Traditions				-->
