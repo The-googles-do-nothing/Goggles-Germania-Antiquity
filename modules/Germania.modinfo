@@ -247,6 +247,7 @@
 					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/progression-trees-culture-unique-ex.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
+					<Item>data/unlocks-syncretism-ex.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -256,6 +257,7 @@
 					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
+					<Item>data/unlocks-syncretism-mo.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
