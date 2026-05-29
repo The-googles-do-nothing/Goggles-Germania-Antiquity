@@ -24,12 +24,12 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_CODANUS" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA_I" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_BARBARICUM" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_ALL_MEN" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_GALSTAR" UnlockDepth="1"/>
 		
 
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" TargetKind="KIND_TRADITION" TargetType="TRADITION_QUINQUEREME_II" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION" TargetKind="KIND_TRADITION" TargetType="TRADITION_GAULOS_II" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA_II" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA_III" UnlockDepth="1"/>
 	</ProgressionTreeNodeUnlocks>
 </Database>
