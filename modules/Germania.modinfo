@@ -146,6 +146,13 @@
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/unlocks-syncretism.xml</Item>
 					<Item>data/unlocks.xml</Item>
+
+					<Item>data/wonders-shared.xml</Item>
+					<Item>data/wonders-shared-gameeffects.xml</Item>
+
+					<Item>data/constructibles-shared-gameeffects.xml</Item>
+					<Item>data/constructibles-shared.xml</Item>
+
 					<!-- <Item>data/unlocks-base-standard.xml</Item> -->
                 </UpdateDatabase>
                 <UpdateText>
@@ -175,7 +182,6 @@
             </Actions>
         </ActionGroup>
 
-
 		<ActionGroup id="antiquity-age-current-Germania" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateArt>
@@ -202,6 +208,7 @@
 					<Item>data/narrative-stories-antiquity.xml</Item>
 
 
+
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
@@ -217,10 +224,9 @@
 				<UpdateArt>
 				</UpdateArt>
 				<UpdateDatabase>
-					<Item>data/constructibles-gameeffects.xml</Item>
-					<Item>data/constructibles.xml</Item>
+
 					<Item>data/religion.xml</Item>
-					<Item>data/wonders.xml</Item>
+					
 				</UpdateDatabase>
                 <ImportFiles>
 					

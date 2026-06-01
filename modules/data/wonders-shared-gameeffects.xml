@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	
 	<!-- ==================================================	-->
-	<!--	Civ Trees							-->
+	<!--	Wonder Bonus							-->
 	<!-- ==================================================	-->
-	<Modifier id="MOD_JEC_REVEAL_CIV_CULTURE_TREE_GERMANIA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+	<Modifier id="MOD_JEC_CIV_WONDER_PRODUCTION_GERMANIA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
 				<Argument name="TraitType">TRAIT_GERMANIA_JEC</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_GERMANIA_JEC</Argument>
-		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GERMANIA_DESCRIPTION</String>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_JEC_CIV_WONDER_PRODUCTION_GERMANIA_DESCRIPTION</String>
 	</Modifier>
-	
+
 	
 </GameEffects>
