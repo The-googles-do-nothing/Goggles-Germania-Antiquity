@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<CivilizationSyncretismUnlocks>
+		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_NORMAN" />
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_BULGARIA" />
 	</CivilizationSyncretismUnlocks>

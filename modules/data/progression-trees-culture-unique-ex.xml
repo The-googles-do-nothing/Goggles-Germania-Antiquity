@@ -7,7 +7,7 @@
 		<Row Type="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" Quote="LOC_CIVIC_EX_RENAISSANCE_QUOTE" QuoteAuthor="LOC_CIVIC_EX_RENAISSANCE_AUTHOR" QuoteAudio="VO_Quote_ToT_EXP_Renaissance"/>
 	</TypeQuotes>
 	<ProgressionTreeNodes>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" ProgressionTree="TREE_CIVICS_EX_TEST_OF_TIME" Cost="800" Name="LOC_NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE_NAME" IconString="cult_germania_JEC" CanSteal="false"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" ProgressionTree="TREE_CIVICS_EX_TEST_OF_TIME" Cost="800" Name="LOC_NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE_NAME" IconString="cult_germania_jec" CanSteal="false"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_CODANNOVIA_II" UnlockDepth="1"/>

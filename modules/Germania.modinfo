@@ -206,9 +206,6 @@
 
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
-
-
-
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
