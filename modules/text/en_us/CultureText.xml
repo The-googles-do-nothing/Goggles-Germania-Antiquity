@@ -103,7 +103,7 @@
 			<Text>Codannovia II</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_DESCRIPTION">
-			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. +1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+			<Text>+200%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. </Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_PREVIEW">
 			<Text>+1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
@@ -121,7 +121,7 @@
 			<Text>Codannovia III</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_DESCRIPTION">
-			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. +2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+			<Text>+300%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_PREVIEW">
 			<Text>+2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>

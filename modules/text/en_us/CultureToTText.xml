@@ -1,0 +1,28 @@
+
+<Database>
+	<EnglishText>
+		<!-- ==================================================	-->
+		<!--	Swiss Confederacy							-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_NODE_CIVIC_AQ_GERMANIA_JEC_ORIGINS_NAME">
+			<Text>Swiss Confederacy Origins</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION_NAME">
+			<Text>Swiss Confederacy Modernization</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION_NAME">
+			<Text>Magna Germania I</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_ANTIQUITY_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_NAME">
+			<Text>Magna Germania II</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_DESCRIPTION">
+			<Text>+2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		</Row>
+    </EnglishText>
+</Database>
+
