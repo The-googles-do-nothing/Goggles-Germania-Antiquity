@@ -133,6 +133,25 @@
 			</Actions>
 		</ActionGroup>
 		<!-- Age specific updates -->
+		<ActionGroup id="swiss-confederacy-text" scope="game" criteria="always">
+			<Actions>	
+                <UpdateText>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ResourcesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
+					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/GreatPeopleText.xml</Item>
+					<Item>text/en_us/CultureText.xml</Item>
+					<Item>text/en_us/CultureTotText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>	
+					<Item>text/en_us/WonderText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
         <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
@@ -155,10 +174,7 @@
 
 					<!-- <Item>data/unlocks-base-standard.xml</Item> -->
                 </UpdateDatabase>
-                <UpdateText>
-					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/NarrativeStoriesText.xml</Item>
-                </UpdateText>
+
                 <ImportFiles>
                     <Item>icons/civ_sym_germania_jec</Item>
 					<Item>icons/civ_sym_germania_jec.png</Item>
@@ -207,10 +223,6 @@
 					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
 					<Item>data/narrative-stories-antiquity.xml</Item>
 				</UpdateDatabase>
-				<UpdateText>
-					<Item>text/en_us/LoadingText.xml</Item>
-					<Item>text/en_us/ResourcesText.xml</Item>
-				</UpdateText>
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
                 </UpdateVisualRemaps>
@@ -218,29 +230,8 @@
 		</ActionGroup>
 		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
 			<Actions>
-				<UpdateArt>
-				</UpdateArt>
 				<UpdateDatabase>
-
-					<Item>data/religion.xml</Item>
-					
 				</UpdateDatabase>
-                <ImportFiles>
-					
-                </ImportFiles>
-                <UpdateIcons>
-
-                </UpdateIcons>
-				<UpdateText>
-					<Item>text/en_us/CityNamesText.xml</Item>
-					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/CitizenNamesText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/GreatPeopleText.xml</Item>
-					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>	
-					<Item>text/en_us/WonderText.xml</Item>
-				</UpdateText>
 			</Actions>
 		</ActionGroup>
 
@@ -250,7 +241,6 @@
 					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/progression-trees-culture-unique-ex.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
-					<Item>data/unlocks-syncretism-ex.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -260,7 +250,6 @@
 					<Item>data/civilizations-modern.xml</Item>
 					<Item>data/progression-trees-culture-unique-mo.xml</Item>
 					<Item>data/age-transition-advanced-start-modern.xml</Item>
-					<Item>data/unlocks-syncretism-mo.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -293,13 +282,19 @@
 					<Item>data/icons/resource-icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
-					<Item>text/en_us/CivilizationText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ResourcesText.xml</Item>
+					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/CitizenNamesText.xml</Item>
+					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/CultureTotText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>	
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

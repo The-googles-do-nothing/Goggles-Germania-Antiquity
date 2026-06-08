@@ -5,24 +5,34 @@
 		<!--	Swiss Confederacy							-->
 		<!-- ==================================================	-->
 		<Row Tag="LOC_NODE_CIVIC_AQ_GERMANIA_JEC_ORIGINS_NAME">
-			<Text>Swiss Confederacy Origins</Text>
-		</Row>
-		<Row Tag="LOC_NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION_NAME">
-			<Text>Swiss Confederacy Modernization</Text>
+			<Text>Germania Origins</Text>
 		</Row>
 
+
+		<Row Tag="LOC_NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE_NAME">
+			<Text>Germania Renaissance</Text>
+		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION_NAME">
-			<Text>Magna Germania I</Text>
+			<Text>Haftaz I</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_ANTIQUITY_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION">
+			<Text>Warehouse Buildings have +1[icon:YIELD_HAPPINESS] Happiness.</Text>
 		</Row>
+
+		<Row Tag="LOC_NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION_NAME">
+			<Text>Germania Modernization</Text>
+		</Row>
+
 		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_NAME">
-			<Text>Magna Germania II</Text>
+			<Text>Haftaz 2</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_DESCRIPTION">
-			<Text>+2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+			<Text>Warehouse Buildings have +2[icon:YIELD_HAPPINESS] Happiness.</Text>
 		</Row>
+
     </EnglishText>
 </Database>
+
+
+
 

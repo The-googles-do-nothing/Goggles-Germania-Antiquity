@@ -73,7 +73,7 @@
 	<Modifier id="MOD_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="Tag">WAREHOUSE</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">1</Argument>
+		<Argument name="Amount">2</Argument>
 	</Modifier>
 
 </GameEffects>

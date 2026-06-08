@@ -54,8 +54,8 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_TRADITION" TargetType="TRADITION_GERMANIA_GALSTAR" UnlockDepth="1"/>
 		
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_MIDGARD_GRANARY_GRANT_UNIT" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_MIDGARD_FISHING_GRANT_UNIT" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_MIDGARD_GRANARY_GREAT_WORKS_SLOTS" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_MIDGARD_FISHING_GREAT_WORKS_SLOTS" UnlockDepth="2"/>
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" UnlockDepth="1"/>
 	</ProgressionTreeNodeUnlocks>

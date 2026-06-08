@@ -57,6 +57,10 @@
 			<Text>Hásteinn (and) Holmstein, brothers</Text>
 		</Row>
 		
+		<Row Tag="LOC_MOD_GERMANIA_GRANARY_GREAT_WORKS_SLOTS_DESCRIPTION">
+			<Text>+1 [icon:NAR_REW_GREATWORK] Codex slots in the City Hall when chosing a Focus of [B]Fishing/Farming[/B] town.</Text>
+		</Row>
+
 		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_NAME">
 			<Text>Wullfaz</Text>
 		</Row>
@@ -96,9 +100,6 @@
 		<!-- ==================================================	-->
 		<!--	EXPLORATION								-->
 		<!-- ==================================================	-->
-		<Row Tag="LOC_NODE_CIVIC_EX_GERMANIA_JEC_RENAISSANCE_NAME">
-			<Text>Germania Renaissance</Text>
-		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_NAME">
 			<Text>Codannovia II</Text>
 		</Row>
@@ -106,17 +107,12 @@
 			<Text>+200%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. </Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_PREVIEW">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+			<Text>+200%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. </Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION_DESCRIPTION">
-			<Text>Happiness Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
-		</Row>
+
 		<!-- ==================================================	-->
 		<!--	MODERN								-->
 		<!-- ==================================================	-->
-		<Row Tag="LOC_NODE_CIVIC_MO_GERMANIA_JEC_MODERNIZATION_NAME">
-			<Text>Germania Modernization</Text>
-		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_NAME">
 			<Text>Codannovia III</Text>
 		</Row>
@@ -124,10 +120,9 @@
 			<Text>+300%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_PREVIEW">
-			<Text>+2[icon:YIELD_HAPPINESS] Happiness on Warehouse buildings.</Text>
+			<Text>+300%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_GERMANIA_JEC_SYNCRETISM_MODERN_DESCRIPTION">
-			<Text>Happiness Buildings have +1[icon:YIELD_HAPPINESS] Happiness adjacency with Tundra.</Text>
-		</Row>
+
+
 	</EnglishText>
 </Database>
