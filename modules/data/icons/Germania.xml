@@ -30,6 +30,10 @@
             <Path>fs://game/goggles_civ_germania/icons/cult_germania_jec.png</Path>
         </Row> 
         <Row>
+            <ID>bg-panel-germania_jec</ID>
+            <Path>fs://game/goggles_civ_germania/icons/bg-panel-germania_jec</Path>
+        </Row> 
+        <Row>
             <ID>civ_line_germania</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_line_germania.png</Path>
         </Row> 

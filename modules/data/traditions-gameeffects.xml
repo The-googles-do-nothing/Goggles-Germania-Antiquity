@@ -6,10 +6,15 @@
 	<!-- GERMANIA -->
 
 	<!-- BARBARICUM -->
-	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_MOD_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
-		<Argument name="Tag">WAREHOUSE</Argument>
-		<Argument name="Percent">100</Argument>
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_MOD_PURCHASE_FOOD_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">FOOD</Argument>
+		<Argument name="Percent">25</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_CODANNOVIA_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_MOD_PURCHASE_HAPPINESS_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">HAPPINESS</Argument>
+		<Argument name="Percent">25</Argument>
 	</Modifier>
 
 	<!-- CODANNOVIA -->
@@ -36,22 +41,30 @@
 	<!-- ==================================================	-->
 	<!--	EXPLORATION									-->
 	<!-- ==================================================	-->
-	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_II_MOD_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
-		<Argument name="Tag">WAREHOUSE</Argument>
-		<Argument name="Percent">200</Argument>
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_II_MOD_PURCHASE_FOOD_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">FOOD</Argument>
+		<Argument name="Percent">35</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_CODANNOVIA_II_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_II_MOD_PURCHASE_HAPPINESS_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">HAPPINESS</Argument>
+		<Argument name="Percent">35</Argument>
 	</Modifier>
 
 	<!-- ==================================================	-->
 	<!--	MODERN										-->
 	<!-- ==================================================	-->
-	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_III_MOD_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
-		<Argument name="Tag">WAREHOUSE</Argument>
-		<Argument name="Percent">300</Argument>
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_III_MOD_FOOD_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">Food</Argument>
+		<Argument name="Percent">45</Argument>
 		<String context="Description">LOC_TRADITION_GERMANIA_CODANNOVIA_III_DESCRIPTION</String>
 	</Modifier>
 
-	
+	<Modifier id="TRADITION_GERMANIA_CODANNOVIA_III_MOD_PURCHASE_HAPPINESS_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Tag">HAPPINESS</Argument>
+		<Argument name="Percent">45</Argument>
+	</Modifier>
+
 	<!-- ==================================================	-->
 	<!--	Unlock Syncretism Traditions				-->
 	<!-- ==================================================	-->

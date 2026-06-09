@@ -1,10 +1,10 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="HERRENHOFE_GOLD_ON_WAREHOUSE_JEC" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+
+	<Modifier id="HERRENHOFE_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
 		<Argument name="Tag">WAREHOUSE</Argument>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">2</Argument>
-		<String context="Preview">LOC_BUILDING_HERRENHOFE_JEC_DESCRIPTION</String>
+		<Argument name="Percent">100</Argument>
 	</Modifier>
+
 </GameEffects>

@@ -30,6 +30,7 @@
 	<TypeTags>
 		<Row Type="BUILDING_HERRENHOFE_JEC" Tag="UNIQUE"/>
 		<Row Type="BUILDING_HERRENHOFE_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_HERRENHOFE_JEC" Tag="HAPPINESS"/>
 	</TypeTags>
 	<Improvements>
 		<!-- Discoveries -->
@@ -48,16 +49,21 @@
 	<Constructible_ValidResources>
 	</Constructible_ValidResources>
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldType="YIELD_GOLD" YieldChange="1" />
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldType="YIELD_HAPPINESS" YieldChange="1" />
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldType="YIELD_HAPPINESS" Amount="1"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldType="YIELD_GOLD" Amount="1"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldChangeId="HerrenhofeWarehouseHappiness"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldChangeId="MountainHappiness"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldChangeId="NaturalWonderHappiness"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" YieldChangeId="WonderHappiness"/>
 	</Constructible_Adjacencies>
 	<Constructible_Logistics />
 	<Adjacency_YieldChanges>
 		<Row ID="GalstarWildcardTundraHappiness" YieldType="YIELD_HAPPINESS" YieldChange="0.5" TilesRequired="1"  AdjacentBiome="BIOME_TUNDRA"/>
+		<Row ID="HerrenhofeWarehouseHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentConstructibleTag="WAREHOUSE"/>
 	</Adjacency_YieldChanges>
 	<Constructible_Plunders>
 		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" PlunderType="PLUNDER_HEAL" Amount="30" />
@@ -65,12 +71,12 @@
 	<ConstructibleModifiers>
 		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xml -->
 		<!-- Buildings -->
-		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" ModifierId="HERRENHOFE_GOLD_ON_WAREHOUSE_JEC"/>
+		<Row ConstructibleType="BUILDING_HERRENHOFE_JEC" ModifierId="HERRENHOFE_PURCHASE_WAREHOUSE_EFFICIENCY"/>
 	</ConstructibleModifiers>
 	<Warehouse_YieldChanges>
-		<Row ID="GermaniaAllMenFarmHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FARM"/>
-		<Row ID="GermaniaAllMenFishingBoatHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT"/>
-		<Row ID="GermaniaAllMenFishingBoatResourceHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
+		<Row ID="GermaniaAllMenFarmHappiness" YieldType="YIELD_HAPPINESS" YieldChange="2" ConstructibleInCity="IMPROVEMENT_FARM"/>
+		<Row ID="GermaniaAllMenFishingBoatHappiness" YieldType="YIELD_HAPPINESS" YieldChange="2" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT"/>
+		<Row ID="GermaniaAllMenFishingBoatResourceHappiness" YieldType="YIELD_HAPPINESS" YieldChange="2" ConstructibleInCity="IMPROVEMENT_FISHING_BOAT_RESOURCE"/>
 	</Warehouse_YieldChanges>
 	<Constructible_Adjacencies>
 	</Constructible_Adjacencies>

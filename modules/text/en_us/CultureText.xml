@@ -80,15 +80,14 @@
 			<Text>Codannovia</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_DESCRIPTION">
-			<Text>+100%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
+			<Text>+25%[icon:YIELD_GOLD] Gold twords purchasing Food or Happiness buildings.</Text>
 		</Row>
-
 
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_NAME">
 			<Text>All Men</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_ALL_MEN_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Farm or Fishing Boat to all Fishing/Farming Towns.</Text>
+			<Text>+2[icon:YIELD_HAPPINESS] Happiness per Farm or Fishing Boat to all Fishing/Farming Towns.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRADITION_GERMANIA_GALSTAR_NAME">
@@ -104,10 +103,10 @@
 			<Text>Codannovia II</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_DESCRIPTION">
-			<Text>+200%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. </Text>
+			<Text>+35%[icon:YIELD_GOLD] Gold twords purchasing Food and Happiness buildings. </Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_PREVIEW">
-			<Text>+200%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings. </Text>
+			<Text>+35%[icon:YIELD_GOLD] Gold twords purchasing Food and Happiness buildings. </Text>
 		</Row>
 
 		<!-- ==================================================	-->
@@ -117,10 +116,10 @@
 			<Text>Codannovia III</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_DESCRIPTION">
-			<Text>+300%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
+			<Text>+45%[icon:YIELD_GOLD] Gold twords purchasing Food and Happiness buildings.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_III_PREVIEW">
-			<Text>+300%[icon:YIELD_GOLD] Gold twords purchasing Warehouse buildings.</Text>
+			<Text>+45%[icon:YIELD_GOLD] Gold twords purchasing Food and Happiness buildings.</Text>
 		</Row>
 
 

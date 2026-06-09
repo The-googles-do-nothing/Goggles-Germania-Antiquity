@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<LeaderSyncretismUnlocks>
+		<Delete LeaderType="LEADER_CHARLEMAGNE" UnlockCivilizationType="CIVILIZATION_GREECE" />
+		<Row LeaderType="LEADER_CHARLEMAGNE" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Delete LeaderType="LEADER_FRIEDRICH" UnlockCivilizationType="CIVILIZATION_EGYPT" />
+		<Row LeaderType="LEADER_FRIEDRICH" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Delete LeaderType="LEADER_CATHERINE" UnlockCivilizationType="CIVILIZATION_GREECE" />
+		<Row LeaderType="LEADER_CATHERINE" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+		<Delete LeaderType="LEADER_FRIEDRICH_ALT" UnlockCivilizationType="CIVILIZATION_EGYPT" />
+		<Row LeaderType="LEADER_FRIEDRICH_ALT" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
+	</LeaderSyncretismUnlocks>
 	<CivilizationSyncretismUnlocks>
-		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" />
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_NORMAN" />
-		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_BULGARIA" />
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_PRUSSIA" />
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockCivilizationType="CIVILIZATION_FRENCH_EMPIRE" />
 	</CivilizationSyncretismUnlocks>
-	<LeaderSyncretismUnlocks>
-		<Row LeaderType="LEADER_CHARLEMAGNE" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
-		<Row LeaderType="LEADER_FRIEDRICH" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
-		<Row LeaderType="LEADER_CATHERINE" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
-		<Row LeaderType="LEADER_FRIEDRICH_ALT" UnlockCivilizationType="CIVILIZATION_GERMANIA_JEC" />
-	</LeaderSyncretismUnlocks>
 	<CivSelfSyncretismUnlocks>
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockType="TRADITION_GERMANIA_JEC_SYNCRETISM_EXPLORATION" Kind="KIND_TRADITION" Age="AGE_EXPLORATION" ModifierID="MOD_UNLOCK_GERMANIA_JEC_SYNCRETISM_EXPLORATION" />
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" UnlockType="TRADITION_CULTURE_SLOT" Kind="KIND_CULTURE_SLOT" Age="AGE_EXPLORATION" ModifierID="MOD_SELF_SYNCRETISM_GRANT_TRADITION_SLOT" />
