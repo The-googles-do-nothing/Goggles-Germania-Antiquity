@@ -6,7 +6,7 @@
 
 
 	<!-- CODANUS -->
-	<Modifier id="MOD_JEC_CODANUS_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+	<Modifier id="MOD_JEC_GERMANIA_NAVAL_WATER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
 				<Argument name="Tags">WATER</Argument>
@@ -15,11 +15,11 @@
 		<Argument name="AllowUniqueOverride">true</Argument>
 		<Argument name="UnitTag">UNIT_CLASS_NAVAL</Argument>
 		<Argument name="Amount">1</Argument>
-		<String context="Description">LOC_MOD_JEC_CODANUS_NAVAL_WATER_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_GERMANIA_NAVAL_WATER_DESCRIPTION</String>
 	</Modifier>
 	<!-- BARBARICUM -->
 	<!-- Level 1 -->
-	<Modifier id="MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SUZERAIN">
+	<Modifier id="MOD_JEC_GERMANIA_HAPPINESS_PER_ALLIED_CITY_STATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SUZERAIN">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
@@ -27,46 +27,53 @@
 		</SubjectRequirements>
 		<Argument name="Amount">2</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<String context="Description">LOC_MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_GERMANIA_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- Level 2 -->
-	<Modifier id="MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
+	<Modifier id="MOD_JEC_GERMANIA_FARM_FISH_TOWN_RESOURCE_CAPACITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_RESOURCE_CAP">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_REQUIREMENTSET_IS_MET">
 				<Argument name="RequirementSetId">REQSET_FARM_OR_FISH_TOWN</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="Amount">2</Argument>
-		<String context="Description">LOC_MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_GERMANIA_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="MOD_JEC_BARBARICUM_GRANARY_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+	<Modifier id="MOD_JEC_GERMANIA_GRANARY_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
 				<Argument name="ProjectType">PROJECT_TOWN_GRANARY</Argument>
 			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AllowUniqueOverride">true</Argument>
-		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
-		<Argument name="Amount">2</Argument>
-		<String context="Description">LOC_MOD_GERMANIA_GRANT_UNIT_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="MOD_JEC_BARBARICUM_FISHING_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
-				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
+			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
+				<Argument name="Tags">HAPPINESS</Argument>
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="AllowUniqueOverride">true</Argument>
 		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_GERMANIA_GRANT_UNIT_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_GERMANIA_FISHING_GRANT_UNIT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
+				<Argument name="Tags">HAPPINESS</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 	<!-- MIDGARD -->
 	<!-- Level 2 -->
 
-	<Modifier id="MOD_JEC_MIDGARD_GRANARY_GREAT_WORKS_SLOTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+	<Modifier id="MOD_JEC_GERMANIA_GRANARY_GREAT_WORKS_SLOTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
 				<Argument name="ProjectType">PROJECT_TOWN_GRANARY</Argument>
@@ -77,7 +84,7 @@
 		<String context="Description">LOC_MOD_GERMANIA_GRANARY_GREAT_WORKS_SLOTS_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="MOD_JEC_MIDGARD_FISHING_GREAT_WORKS_SLOTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+	<Modifier id="MOD_JEC_GERMANIA_FISHING_GREAT_WORKS_SLOTS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
 				<Argument name="ProjectType">PROJECT_TOWN_FISHING</Argument>
@@ -89,7 +96,7 @@
 
 
 	<!-- WULFAZ -->
-	<Modifier id="MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
+	<Modifier id="MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
@@ -97,7 +104,7 @@
 			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
 		</SubjectRequirements>
 		<Argument name="Percent">100</Argument>
-		<String context="Description">LOC_MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION</String>
+		<String context="Description">LOC_MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION</String>
 	</Modifier>
 
 

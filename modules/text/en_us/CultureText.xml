@@ -20,7 +20,7 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_CODANUS_QUOTE_AUTHOR">
 			<Text>Pliny the Elder </Text>
 		</Row>
-		<Row Tag="LOC_MOD_JEC_CODANUS_NAVAL_WATER_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_GERMANIA_NAVAL_WATER_DESCRIPTION">
 			<Text>Gain an Naval Unit when you construct a Water Building.</Text>
 		</Row>
 
@@ -35,16 +35,16 @@
 			<Text>Ovid</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_JEC_BARBARICUM_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_GERMANIA_HAPPINESS_PER_ALLIED_CITY_STATE_DESCRIPTION">
 			<Text>+2[icon:YIELD_HAPPINESS] Happiness in Fishing/Farming town for each City-State you are Suzerain of.</Text>
 		</Row>
 
-		<Row Tag="LOC_MOD_JEC_BARBARICUM_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_GERMANIA_FARM_FISH_TOWN_RESOURCE_CAPACITY_DESCRIPTION">
 			<Text>+2 Resouce Capacity each town specialized as a Fishing/Farming town.</Text>
 		</Row>
 		
 		<Row Tag="LOC_MOD_GERMANIA_GRANT_UNIT_DESCRIPTION">
-			<Text>Gain an Folc Unit when chosing a Focus of Fishing/Farming town.</Text>
+			<Text>Gain an [TIP:LOC_PEDIA_CONCEPTS_INFANTRY_UNITS_TOOLTIP]Subui Unit[/TIP] when you construct a [icon:YIELD_HAPPINESS] Happiness [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP] in a Fishing/Farming town.</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVIC_GERMANIA_MIDGARD_NAME">
@@ -70,7 +70,7 @@
 		<Row Tag="LOC_CIVIC_GERMANIA_WULFAZ_QUOTE_AUTHOR">
 			<Text>Christian Fürchtegott</Text>
 		</Row>
-		<Row Tag="LOC_MOD_JEC_WULFAZ_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
+		<Row Tag="LOC_MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
 			<Text>+100% Commander experience during a Celebration.</Text>
 		</Row>
 
@@ -102,7 +102,7 @@
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_NAME">
 			<Text>Codannovia II</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_DESCRIPTION">
+		<Row Tag="MOD_JEC_GERMANIA_HAPPINESS_PER_ALLIED_CITY_STATE">
 			<Text>+35%[icon:YIELD_GOLD] Gold twords purchasing Food and Happiness buildings. </Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_II_PREVIEW">
