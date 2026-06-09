@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Database>
     <IconDefinitions>
+        <!-- germania -->
         <!-- Civ Symbol-->
         <Row>
             <ID>CIVILIZATION_GERMANIA_JEC</ID>
@@ -108,6 +109,16 @@
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
+        <!-- resouces -->
+		<Row>
+			<ID>RESOURCE_AMBER_JEC</ID>
+			<Path>fs://game/goggles_civ_germania/icons/resicon_amber.png</Path>
+		</Row>
+        <!-- wonders -->
+		<Row>
+			<ID>WONDER_HASELGEBRIGE_SALT_MINE</ID>
+			<Path>fs://game/goggles_civ_germania/icons/wondericon_haselgebrige_salt_mine.png</Path>
+		</Row>
 
     </IconDefinitions>
 </Database>

@@ -94,8 +94,6 @@
 		</ActionGroup>
 		<ActionGroup id="age-exploration-persist-arminius" scope="game" criteria="exploration-age-persist">
 			<Actions>
-				<UpdateIcons>
-				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>arminius/data/unit-promotions-exploration.xml</Item>
 					<Item>arminius/data/unit-promotions-gameeffects-exploration.xml</Item>	
@@ -103,8 +101,6 @@
 				<UpdateText>
 					<Item>arminius/text/en_us/UnitTextExploration.xml</Item>
 				</UpdateText>
-				<UIScripts>
-				</UIScripts>
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-modern-persist-arminius" scope="game" criteria="modern-age-persist">
@@ -147,9 +143,10 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CultureTotText.xml</Item>
+					<Item>text/en_us/CultureToTText.xml</Item>
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/ResourcesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>	
@@ -193,12 +190,8 @@
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/Germania.xml</Item>
-					<Item>data/icons/wonder-icons.xml</Item>
-					<Item>data/icons/resource-icons.xml</Item>
+					<Item>data/icons/icons.xml</Item>
                 </UpdateIcons>
-                <ScenarioScripts>
-                </ScenarioScripts>
             </Actions>
         </ActionGroup>
 
@@ -207,7 +200,7 @@
 				<UpdateArt>
 				</UpdateArt>
 				<UpdateDatabase>
-					<Item>data/AI_Antiquity.xml</Item>
+					<Item>data/ai-antiquity.xml</Item>
 					<Item>data/citizen-names.xml</Item>
 					<Item>data/civilizations-antiquity-gameeffects.xml</Item>
 					<Item>data/civilizations-antiquity.xml</Item>
@@ -235,13 +228,6 @@
                 </UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-antiquity-persist-Germania" scope="game" criteria="antiquity-age-persist">
-			<Actions>
-				<UpdateDatabase>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
-
 		<ActionGroup id="age-exploration-main-Germania" scope="game" criteria="exploration-age-current">
 			<Actions>
 				<UpdateDatabase>
@@ -260,12 +246,8 @@
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="shell-Germania" scope="shell" criteria="always">
+		<ActionGroup id="shell-germania" scope="shell" criteria="always">
 			<Actions>
-				<UpdateArt>
-				</UpdateArt>
-				<UpdateColors>
-				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 					<Item>config/config-traditions.xml</Item>
@@ -287,27 +269,28 @@
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
-                    <Item>data/icons/Germania.xml</Item>
-					<Item>data/icons/wonder-icons.xml</Item>
-					<Item>data/icons/resource-icons.xml</Item>
+                    <Item>data/icons/icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/CitizenNamesText.xml</Item>
-					<Item>text/en_us/CityNamesText.xml</Item>
+					 <Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/CultureTotText.xml</Item>
+					<Item>text/en_us/CultureToTText.xml</Item>
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/ResourcesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>	
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
-				<UpdateColors>
-				</UpdateColors>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
+
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>
