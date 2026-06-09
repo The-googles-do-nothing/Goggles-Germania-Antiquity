@@ -1,5 +1,5 @@
 // Panel you want to modify
-import { U as UnitPromotion } from '/base-standard/ui/unit-promotion/model-unit-promotion.chunk.js';
+import { U as UnitPromotion } from '/base-standard/ui/unit-promotion/model-unit-promotion.js';
 
 UnitPromotion.iconClassMap.LOC_DISCIPLINE_ARMY_ARMINIUS_NAME = "promotion-assault";
 UnitPromotion.iconClassMap.LOC_DISCIPLINE_ARMY_OTTO_NAME = "promotion-bastion";
