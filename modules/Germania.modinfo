@@ -254,6 +254,7 @@
 				</UpdateDatabase>
                 <ImportFiles>
 					<Item>icons/bg-panel-germania_jec</Item>
+					<Item>icons/bg-panel-germania_jec.png</Item>
 					<Item>icons/buildicon_herrenhofe_jec.png</Item>		
 					<Item>icons/civ_line_germania_jec.png</Item>
                     <Item>icons/civ_sym_germania_jec</Item>

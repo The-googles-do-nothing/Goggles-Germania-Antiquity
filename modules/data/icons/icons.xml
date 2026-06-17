@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Database>
-    <IconDefinitions>
+    <IconDefinitions>        
         <!-- germania -->
         <!-- Civ Symbol-->
         <Row>
@@ -33,6 +33,10 @@
         <Row>
             <ID>bg-panel-germania_jec</ID>
             <Path>fs://game/goggles_civ_germania/icons/bg-panel-germania_jec</Path>
+        </Row> 
+        `<Row>
+            <ID>bg-panel-germania_jec.png</ID>
+            <Path>fs://game/goggles_civ_germania/icons/bg-panel-germania_jec.png</Path>
         </Row> 
         <Row>
             <ID>civ_line_germania</ID>
