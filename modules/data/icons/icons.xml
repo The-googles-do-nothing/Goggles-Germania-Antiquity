@@ -2,7 +2,6 @@
 <Database>
     <IconDefinitions>        
         <!-- germania -->
-        <!-- Civ Symbol-->
         <Row>
             <ID>CIVILIZATION_GERMANIA_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_sym_germania_jec</Path>
@@ -34,7 +33,7 @@
             <ID>bg-panel-germania_jec</ID>
             <Path>fs://game/goggles_civ_germania/icons/bg-panel-germania_jec</Path>
         </Row> 
-        `<Row>
+        <Row>
             <ID>bg-panel-germania_jec.png</ID>
             <Path>fs://game/goggles_civ_germania/icons/bg-panel-germania_jec.png</Path>
         </Row> 

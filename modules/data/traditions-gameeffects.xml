@@ -65,6 +65,21 @@
 		<Argument name="Percent">45</Argument>
 	</Modifier>
 
+	<!-- <Modifier id="MOD_CLASSICAL_REPUBLIC_PASSIVE_JOYOUS_CITIES" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_GOVERNMENT">
+            	<Argument name="GovernmentType">GOVERNMENT_CLASSICAL_REPUBLIC</Argument>
+       		</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_SETTLEMENT_HAPPINESS_STAGE_MATCHES">
+				<Argument name="IsGreaterThanOrEquals">true</Argument>
+				<Argument name="HappinessStage">HAPPINESS_STAGE_JOYOUS</Argument>
+       		</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">4</Argument>
+	</Modifier> -->
+
 	<!-- ==================================================	-->
 	<!--	Unlock Syncretism Traditions				-->
 	<!-- ==================================================	-->

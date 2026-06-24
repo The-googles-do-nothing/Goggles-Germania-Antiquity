@@ -251,6 +251,7 @@
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 					<Item>config/config-traditions.xml</Item>
+					<Item>data/unlocks-syncretism.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
 					<Item>icons/bg-panel-germania_jec</Item>
