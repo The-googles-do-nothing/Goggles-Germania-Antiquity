@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Commander abilities -->
-	<!-- SIGIMER -->
+	<!-- ARIOVISTUS -->
 	<Modifier id="GREAT_PERSON_GRANT_UNIT_HERMANN" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
-		<Argument name="UnitType">UNIT_HERMANN_JEC</Argument>
+		<Argument name="UnitType">UNIT_ARMY_COMMANDER</Argument>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
+
 	<!-- TEUTOBOD -->
 	<Modifier id="GREATPERSON_GRANT_UNIT_PROMOTION_TEUTOBOD" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION">
 		<SubjectRequirements>
@@ -29,7 +30,7 @@
 	</Modifier> 
 
 	<!-- PIPARA -->
-	<Modifier id="GREAT_PERSON_TRADITION_PIPARA" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_YIELD_PER_RESOURCES_IN_CITY">
+	<Modifier id="GREAT_PERSON_PIPARA_GRANT_YIELD_PER_RESOURCES_IN_CITY" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_YIELD_PER_RESOURCES_IN_CITY">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">2</Argument>
 		<Argument name="Imported">true</Argument>
@@ -44,19 +45,27 @@
 		<String context="Summary">LOC_GREATPERSON_MONUMENT_HAPPINESS</String>
 	</Modifier>	
 
-	
 	<!-- Units -->
-	<Modifier id="GREAT_PERSON_TRADITION_CIVILIS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="true" permanent="true">
-		<Argument name="Tradition">TRADITION_GREAT_PERSON_CIVILIS</Argument>
-		<Argument name="Lock">false</Argument>
-	</Modifier>
 	<Modifier id="GREAT_PERSON_GRANT_SETTLER_CIVILIS" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
 		<Argument name="UnitTag">UNIT_CLASS_CREATE_TOWN</Argument>
-		<Argument name="UnitAbilityType">ABILITY_CIVILIS_MOVEMENT</Argument>
+		<Argument name="UnitAbilityType">ABILITY_GERMANIA_MOVEMENT_JEC</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Summary">LOC_GREATPERSON_GRANT_CREATE_TOWN</String>
 	</Modifier>
-	<Modifier id="GREAT_PERSON_GRANT_RANGED_HERMANAFRID" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+
+	<Modifier id="GREAT_PERSON_HERMANAFRID_GRANT_UNIT_I" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE" inverse="true">
+				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_ANIMAL_HUSBANDRY</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="UnitAbilityType">ABILITY_GERMANIA_MOVEMENT_JEC</Argument>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+
+	<Modifier id="GREAT_PERSON_HERMANAFRID_GRANT_UNIT_II" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
 				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_ANIMAL_HUSBANDRY</Argument>
@@ -64,12 +73,11 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="UnitTag">UNIT_CLASS_RANGED</Argument>
-		<Argument name="UnitAbilityType">ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH</Argument>
+		<Argument name="UnitAbilityType">ABILITY_GERMANIA_MOVEMENT_JEC</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Summary">LOC_GREATPERSON_GRANT_RANGED</String>
 	</Modifier>
 
-	<Modifier id="GREAT_PERSON_GRANT_SIEGE_BOIORIX" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+	<Modifier id="GREAT_PERSON_BOIORIX_GRANT_UNIT_I" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
 				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_WHEEL</Argument>
@@ -77,27 +85,22 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="UnitTag">UNIT_CLASS_SIEGE</Argument>
-		<Argument name="UnitAbilityType">ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH</Argument>
+		<Argument name="UnitAbilityType">ABILITY_GERMANIA_COMBAT_STRENGTH_JEC</Argument>
 		<Argument name="Amount">2</Argument>
 		<String context="Summary">LOC_GREATPERSON_GRANT_SIEGE</String>
 	</Modifier>
 
-	<!--Unit Abilities-->
-	<Modifier id="CIVILIS_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+	<Modifier id="GREAT_PERSON_BOIORIX_GRANT_UNIT_II" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE"  inverse="true">
+				<Argument name="ProgressionTreeNodeType">NODE_TECH_AQ_WHEEL</Argument>
+				<Argument name="MinDepth">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="UnitAbilityType">ABILITY_GERMANIA_COMBAT_STRENGTH_JEC</Argument>
 		<Argument name="Amount">2</Argument>
-		<String context="Preview">ABILITY_CIVILIS_MOVEMENT_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="CIVILIS_EMBARKED_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
-		<Argument name="Amount">2</Argument>
-		<String context="Preview">ABILITY_CIVILIS_MOVEMENT_DESCRIPTION</String>
+		<String context="Summary">LOC_GREATPERSON_GRANT_SIEGE</String>
 	</Modifier>
 
-	<Modifier id="HERMANAFRID_RANGED_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="BOIORIX_SIEGE_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">3</Argument>
-		<String context="Preview">ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH_DESCRIPTION</String>
-	</Modifier>
 </GameEffects>

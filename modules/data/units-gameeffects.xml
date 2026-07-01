@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<Modifier id="SUEBI_MOD_SPLASH_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
-		</SubjectRequirements>
 		<Argument name="Percent">25</Argument>
+	</Modifier>
+
+	<!-- greatperson -->
+	<!--Unit Abilities-->
+	<Modifier id="GERMANIA_MOVEMENT_JEC" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="GERMANIA_EMBARKED_MOVEMENT_JEC" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="GERMANIA_COMBAT_STRENGTH_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

@@ -30,6 +30,37 @@
             <From>UNIT_SUEBI_JEC_3</From>
             <To>UNIT_PHALANX</To>
         </Row>
+
+        <Row>
+            <ID>REMAP_UNIT_BOAR_WARRIOR_JEC</ID>
+            <DisplayName>LOC_UNIT_BOAR_WARRIOR_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BOAR_WARRIOR_JEC</From>
+            <To>UNIT_SPEARMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_BOAR_WARRIOR_JEC_2</ID>
+            <DisplayName>LOC_UNIT_BOAR_WARRIOR_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BOAR_WARRIOR_JEC_2</From>
+            <To>UNIT_PHALANX</To>
+        </Row>
+
+        <Row>
+            <ID>REMAP_UNIT_WOLF_WARRIOR_JEC</ID>
+            <DisplayName>LOC_UNIT_WOLF_WARRIOR_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_WOLF_WARRIOR_JEC</From>
+            <To>UNIT_JAGUAR_SLAYER</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_WOLF_WARRIOR_JEC_2</ID>
+            <DisplayName>LOC_UNIT_WOLF_WARRIOR_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_WOLF_WARRIOR_JEC_2</From>
+            <To>UNIT_JAGUAR_SLAYER</To>
+        </Row>
+
         <!-- commander -->
         <Row>
             <ID>REMAP_UNIT_ARMINIUS</ID>
@@ -47,10 +78,10 @@
             <To>UNIT_LOGIOS_SOCRATES</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_FOLC_JEC_SIGIMER</ID>
-            <DisplayName>LOC_UNIT_FOLC_JEC_SIGIMER_NAME</DisplayName>
+            <ID>REMAP_UNIT_FOLC_JEC_ARIOVISTUS</ID>
+            <DisplayName>LOC_UNIT_FOLC_JEC_ARIOVISTUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_FOLC_JEC_SIGIMER</From>
+            <From>UNIT_FOLC_JEC_ARIOVISTUS</From>
             <To>UNIT_LOGIOS_XENOPHON</To>
         </Row>
         <Row>
@@ -62,7 +93,7 @@
         </Row>
         <Row>
             <ID>REMAP_UNIT_FOLC_JEC_CIVILIS</ID>
-            <DisplayName>LOC_UNIT_FOLC_JEC_SIGIMER_NAME</DisplayName>
+            <DisplayName>LOC_UNIT_FOLC_JEC_ARIOVISTUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_FOLC_JEC_CIVILIS</From>
             <To>UNIT_LOGIOS_PLATO</To>

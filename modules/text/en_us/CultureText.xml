@@ -73,7 +73,12 @@
 		<Row Tag="LOC_MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION">
 			<Text>+100% Commander experience during a Celebration.</Text>
 		</Row>
-
+		<Row Tag="LOC_MOD_JEC_GERMANIA_CELEBRATION_LENGTH_DESCRIPTION">
+			<Text>+50% [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP] duration.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_JEC_GERMANIA_MOD_GRANT_UNIT_HERMANN_DESCRIPTION">
+			<Text>Grants a special Commander "Hermann (Man of War)".</Text>
+		</Row>
 
 		<!--Germania Unique Traditions-->
 		<Row Tag="LOC_TRADITION_GERMANIA_CODANNOVIA_NAME">

@@ -1,26 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!-- Unit Abilities -->
-
-		<!-- Greece Unique Units -->
+		<!-- Units -->
 		<Row Tag="LOC_UNIT_SUEBI_JEC_NAME">
 			<Text>Suebi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_JEC_BASE_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. Deals Splash Damage during celebrations.</Text>
+			<Text>Germania Unique Infantry Unit. Deals Splash Damage.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_JEC_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. Deals Splash Damage during celebrations.</Text>
+			<Text>Germania Unique Infantry Unit. Deals Splash Damage.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_JEC_2_DESCRIPTION">
-			<Text>Tier 2 Germania Unique Infantry Unit. Deals Splash Damage during celebrations.</Text>
+			<Text>Tier 2 Germania Unique Infantry Unit. Deals Splash Damage.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUEBI_JEC_3_DESCRIPTION">
-			<Text>Tier 3 Germania Unique Infantry Unit. Deals Splash Damage during celebrations.</Text>
+			<Text>Tier 3 Germania Unique Infantry Unit. Deals Splash Damage.</Text>
 		</Row>
-		<Row Tag="SUEBI_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY_DESCRIPTION">
-			<Text>Reduced cost to purchase Suebi for each in town specialized as a Fishing/Farming.</Text>
+
+		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_NAME">
+			<Text>Boar Warrior</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_BASE_DESCRIPTION">
+			<Text>Germania Unique Infantry Unit. Deals extra damage when attacking. Replaces Cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_DESCRIPTION">
+			<Text>Germania Unique Infantry Unit. Deals extra damage when attacking. Replaces Cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_2_DESCRIPTION">
+			<Text>Tier 2 Germania Unique Infantry Unit. Deals extra damage when attacking. Replaces Cavalry.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_WOLF_WARRIOR_JEC_NAME">
+			<Text>Wolf Warrior</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WOLF_WARRIOR_JEC_BASE_DESCRIPTION">
+			<Text>Germania Unique Scout Unit. Can attack.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WOLF_WARRIOR_JEC_DESCRIPTION">
+			<Text>Germania Unique Scout Unit. Can attack.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WOLF_WARRIOR_JEC_2_DESCRIPTION">
+			<Text>Tier 2 Germania Unique Scout Unit. Can attack.</Text>
+		</Row>
+
+		<!-- Unit Abilities -->
+		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
+			<Text>+3 Combat Strength</Text>
+		</Row>
+		<Row Tag="ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION">
+			<Text>+1 movement</Text>
+		</Row>
+
+
 	</EnglishText>
 </Database>

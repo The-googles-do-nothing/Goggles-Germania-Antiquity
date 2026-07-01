@@ -21,11 +21,11 @@
 		</InsertOrIgnore>
 
 		 <!-- Commander abilities -->
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER_NAME">
-			<Text>Sigimer of the Cherusci</Text>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARIOVISTUS_NAME">
+			<Text>Ariovistus of the Suebi</Text>
 		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_SIGIMER_DESCRIPTION">
-			<Text>Activate on an Wonder to grant a special Commander "Hermann (Man of War)".</Text>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARIOVISTUS_DESCRIPTION">
+			<Text>Activate to grant a Army Commander.</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME">
 			<Text>Teutobod of the Cherusci</Text>
@@ -74,9 +74,7 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_DESCRIPTION">
 			<Text>Grants a Settler Units with increased movement.</Text>
 		</Row>
-		<Row Tag="ABILITY_CIVILIS_MOVEMENT_DESCRIPTION">
-			<Text>+2 movement</Text>
-		</Row>
+
 		<Replace Tag="LOC_GREATPERSON_GRANT_CREATE_TOWN">
 			<Text>Grants a Settler Units with increased movement.</Text>
 		</Replace>
@@ -84,25 +82,19 @@
 			<Text>Hermanafrid of the Thuringii</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_DESCRIPTION">
-			<Text>Grants 2 Ranged Units with +3 Combat Strength.</Text>
-		</Row>
-		<Row Tag="ABILITY_HERMANAFRID_RANGED_COMBAT_STRENGTH_DESCRIPTION">
-			<Text>+3 Combat Strength</Text>
+			<Text>Grants 2 Units with increased movement.</Text>
 		</Row>
 		<Replace Tag="LOC_GREATPERSON_GRANT_RANGED">
-			<Text>Grants 2 Ranged Units with +3 Combat Strength.</Text>
+			<Text>Grants 2 Units with increased movement.</Text>
 		</Replace>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME">
 			<Text>Boiorix of the Cimbri</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_DESCRIPTION">
-			<Text>Grants 2 Siege Units with +3 Combat Strength.</Text>
-		</Row>
-		<Row Tag="ABILITY_BOIORIX_SIEGE_COMBAT_STRENGTH_DESCRIPTION">
-			<Text>+3 Combat Strength</Text>
+			<Text>Grants 2 Units with with increased Combat Strength.</Text>
 		</Row>
 		<Replace Tag="LOC_GREATPERSON_GRANT_SIEGE">
-			<Text>Creates 2 Siege Units with +3 Combat Strength.</Text>
+			<Text>Creates 2 Units with with increased Combat Strength.</Text>
 		</Replace>
 	</EnglishText>
 </Database>

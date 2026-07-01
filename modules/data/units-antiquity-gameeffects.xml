@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="MOD_GERMANIA_JEC_ADJUST_DAMAGE_ATTACK_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_DAMAGE_ATTACK_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">150</Argument>
+	</Modifier>
+
+</GameEffects>

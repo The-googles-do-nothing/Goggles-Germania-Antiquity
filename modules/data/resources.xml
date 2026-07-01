@@ -10,7 +10,10 @@
     <Resources>
     	<Row ResourceType="RESOURCE_AMBER_JEC" Name="LOC_RESOURCE_AMBER_JEC_NAME" Tooltip="LOC_RESOURCE_AMBER_JEC_TOOLTIP" ResourceClassType="RESOURCECLASS_BONUS" Weight="10" Tradeable="true"/>
     </Resources>
-
+	<Resource_YieldChanges>
+		<!--Yield Changes - Antiquity-->
+		<Row ResourceType="RESOURCE_AMBER_JEC" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
+	</Resource_YieldChanges>
     <Resource_ValidAges>
         <Row ResourceType="RESOURCE_AMBER_JEC" AgeType="AGE_ANTIQUITY"/>
     </Resource_ValidAges>
@@ -18,7 +21,7 @@
         <Row ModifierId="MOD_AMBER_JEC_WATER_HAPPINESS"/>
     </GameModifiers>
     <ModifierMetadatas>
-		<Row ModifierId="MOD_AMBER_JEC_WATER_HAPPINESS" FieldName="ResourceType" String="RESOURCE_AMBER_JEC"/>
+		  <Row ModifierId="MOD_AMBER_JEC_WATER_HAPPINESS" FieldName="ResourceType" String="RESOURCE_AMBER_JEC"/>
     </ModifierMetadatas>
     <TypeTags>
 		<Row Type="RESOURCE_AMBER_JEC" Tag="HAPPINESS"/>

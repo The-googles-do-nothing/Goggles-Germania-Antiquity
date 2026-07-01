@@ -94,7 +94,6 @@
 		<Argument name="Amount">1</Argument>
 	</Modifier>
 
-
 	<!-- WULFAZ -->
 	<Modifier id="MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ARMY_ADJUST_EXPERIENCE_RATE">
 		<SubjectRequirements>
@@ -107,5 +106,16 @@
 		<String context="Description">LOC_MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP_DESCRIPTION</String>
 	</Modifier>
 
+	<Modifier id="MOD_JEC_GERMANIA_MOD_GRANT_UNIT_HERMANN" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="true" permanent="true">
+		<Argument name="UnitType">UNIT_HERMANN_JEC</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_JEC_GERMANIA_MOD_GRANT_UNIT_HERMANN_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="MOD_JEC_GERMANIA_CELEBRATION_LENGTH" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_GOLDEN_AGE_DURATION">
+		<Argument name="Percent">50</Argument>
+		<Argument name="Tooltip">LOC_MOD_JEC_GERMANIA_CELEBRATION_LENGTH_DESCRIPTION</Argument>
+		<String context="Description">LOC_MOD_JEC_GERMANIA_CELEBRATION_LENGTH_DESCRIPTION</String>
+	</Modifier>
 
 </GameEffects>

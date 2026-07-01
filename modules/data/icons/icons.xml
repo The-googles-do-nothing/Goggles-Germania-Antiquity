@@ -41,12 +41,13 @@
             <ID>civ_line_germania</ID>
             <Path>fs://game/goggles_civ_germania/icons/civ_line_germania.png</Path>
         </Row> 
-        <!-- UU AND UI -->
+        <!-- infrastructure -->
         <Row>
             <ID>BUILDING_HERRENHOFE_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/buildicon_herrenhofe_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
+        <!-- units -->
         <Row>
             <ID>UNIT_SUEBI_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec.png</Path>
@@ -63,6 +64,22 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
+            <ID>UNIT_BOAR_WARRIOR_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_BOAR_WARRIOR_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_BOAR_WARRIOR_JEC_2</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_BOAR_WARRIOR_jec_2.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_WOLF_WARRIOR_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_wolf_warrior_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <!-- greatpeople -->
+        <Row>
             <ID>UNIT_FOLC_JEC</ID>
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
@@ -73,7 +90,7 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_FOLC_JEC_SIGIMER</ID>
+            <ID>UNIT_FOLC_JEC_ARIOVISTUS</ID>
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
@@ -87,7 +104,7 @@
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-                <Row>
+        <Row>
             <ID>UNIT_FOLC_JEC_VELEDA</ID>
             <Path>fs://game/goggles_civ_germania/icons/unitflag_folc_jec.png</Path>
             <Context>DEFAULT</Context>
@@ -116,6 +133,12 @@
 		<Row>
 			<ID>RESOURCE_AMBER_JEC</ID>
 			<Path>fs://game/goggles_civ_germania/icons/resicon_amber.png</Path>
+            <Context>DEFAULT</Context>
+		</Row>
+		<Row>
+			<ID>RESOURCE_AMBER_JEC</ID>
+			<Path>fs://game/goggles_civ_germania/icons/resicon_amber.png</Path>
+            <Context>FOW</Context>
 		</Row>
         <!-- wonders -->
 		<Row>

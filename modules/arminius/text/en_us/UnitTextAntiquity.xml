@@ -6,7 +6,7 @@
 			<Text>Hermann (Man of War)</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HERMANN_JEC_DESCRIPTION">
-			<Text>Germania's Unique Army Commander. Ageless. He has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree. Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after activating Sigimer of the Cherusci Folc Great person. Persists across Age Transition.</Text>
+			<Text>Germania's Unique Army Commander. Ageless. He has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree. Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Appears after activating ARIOVISTUS of the Cherusci Folc Great person. Persists across Age Transition.</Text>
 		</Row>
 		<!-- Unique -->
 		<Row Tag="LOC_DISCIPLINE_ARMY_ARMINIUS_NAME">

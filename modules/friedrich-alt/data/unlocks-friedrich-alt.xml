@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_FRIEDRICH_ALT" Civilization="CIVILIZATION_GERMANIA_JEC" Priority="2"/>
+	</LeaderCivPriorities>
+
+	<LegacyLeaderCivPriorities>
+		<Delete Leader="LEADER_FRIEDRICH_ALT" CivilizationType="CIVILIZATION_GERMANIA_JEC"/>
+		<Row Leader="LEADER_FRIEDRICH_ALT" CivilizationType="CIVILIZATION_GERMANIA_JEC"/>
+	</LegacyLeaderCivPriorities>
+
+</Database>

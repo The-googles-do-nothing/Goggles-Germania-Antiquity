@@ -48,9 +48,21 @@
         <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
             <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
         </Criteria>
+        <Criteria all="true" id="friedrich-xerxes-alt-enable">
+            <ModInUse>friedrich-xerxes-alt</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
+		<ActionGroup id="base-game-friedrich-xerxes-alt" scope="game" criteria="friedrich-xerxes-alt-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>friedrich-alt/data/unlocks-friedrich-alt.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+                </UpdateText>
+            </Actions>
+		</ActionGroup>
 		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
 			<!-- ynamp compatability -->
 			<Actions>
@@ -175,6 +187,7 @@
 
                 <ImportFiles>
 					<Item>icons/bg-panel-germania_jec</Item>
+					<Item>icons/bg-panel-germania_jec.png</Item>
 					<Item>icons/buildicon_herrenhofe_jec.png</Item>		
 					<Item>icons/civ_line_germania_jec.png</Item>
                     <Item>icons/civ_sym_germania_jec</Item>
@@ -187,11 +200,17 @@
 					<Item>icons/unitflag_suebi_jec_2.png</Item>
 					<Item>icons/unitflag_suebi_jec_3.png</Item>
 					<Item>icons/unitflag_suebi_jec.png</Item>
+					<Item>icons/unitflag_boar_warrior_jec.png</Item>
+					<Item>icons/unitflag_boar_warrior_jec_2.png</Item>
+					<Item>icons/unitflag_wolf_warrior_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 					<Item>data/icons/icons.xml</Item>
                 </UpdateIcons>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
             </Actions>
         </ActionGroup>
 
@@ -220,12 +239,13 @@
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
 					
+					<Item>data/units-antiquity.xml</Item>
+					<Item>data/units-antiquity-gameeffects.xml</Item>
+
 					<Item>data/resources.xml</Item>
 					<Item>data/resources-gameeffects.xml</Item>
 				</UpdateDatabase>
-                <UpdateVisualRemaps>
-                    <Item>data/visual-remap.xml</Item>
-                </UpdateVisualRemaps>
+
 			</Actions>
 		</ActionGroup>
 		<ActionGroup id="age-exploration-main-Germania" scope="game" criteria="exploration-age-current">
@@ -268,6 +288,9 @@
 					<Item>icons/unitflag_suebi_jec_2.png</Item>
 					<Item>icons/unitflag_suebi_jec_3.png</Item>
 					<Item>icons/unitflag_suebi_jec.png</Item>
+					<Item>icons/unitflag_boar_warrior_jec.png</Item>
+					<Item>icons/unitflag_boar_warrior_jec_2.png</Item>
+					<Item>icons/unitflag_wolf_warrior_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>

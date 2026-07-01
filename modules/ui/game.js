@@ -12,11 +12,23 @@ window.UnitPortraitVisualRemaps = {
         unitType: 'UNIT_PHALANX',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
+    'UNIT_BOAR_WARRIOR_JEC': { //your unit type
+        unitType: 'UNIT_SPEARMAN',
+        background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
+    },
+    'UNIT_BOAR_WARRIOR_JEC_2': { //your unit type
+        unitType: 'UNIT_PHALANX',
+        background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
+    },
+    'UNIT_WOLF_WARRIOR_JEC': { //your unit type
+        unitType: 'UNIT_SCOUT',
+        background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
+    },
     'UNIT_FOLC_JEC_TEUTOBOD': { //your unit type
         unitType: 'UNIT_LOGIOS_SOCRATES',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
-    'UNIT_FOLC_JEC_SIGIMER': { //your unit type
+    'UNIT_FOLC_JEC_ARIOVISTUS': { //your unit type
         unitType: 'UNIT_LOGIOS_XENOPHON',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },  

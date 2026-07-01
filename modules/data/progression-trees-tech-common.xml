@@ -13,6 +13,9 @@
 		<!-- Germania -->
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SUEBI_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
 		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_SUEBI_JEC_3" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_BOAR_WARRIOR_JEC" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_BOAR_WARRIOR_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+	
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Civ Unique Military bear warriors-->
+		<Row Type="UNIT_BOAR_WARRIOR_JEC" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Kind="KIND_UNIT"/>
+		<!--Civ Unique Abilities-->
+		<Row Type="ABILITY_BOAR_WARRIOR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WOLF_WARRIOR_JEC" Kind="KIND_ABILITY"/>
+	</Types>
+	<Units>
+		<!--Civ Unique Military-->
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_UNIT_BOAR_WARRIOR_JEC_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_UNIT_BOAR_WARRIOR_JEC_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CanTrain="false" TraitType="TRAIT_GERMANIA_JEC"/>
+
+		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" Name="LOC_UNIT_WOLF_WARRIOR_JEC_NAME" Description="LOC_UNIT_WOLF_WARRIOR_JEC_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="false" TraitType="TRAIT_GERMANIA_JEC"/>
+	</Units>
+	<Unit_Stats>
+		<!--Civ Unique Military-->
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" Combat="30"/>
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" Combat="35"/>
+
+		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" Combat="15"/>
+		<!--Civ Unique Civilian-->
+	</Unit_Stats>
+	<Unit_Costs>
+		<!--Civ Unique Military-->
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" YieldType="YIELD_PRODUCTION" Cost="80"/>
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" YieldType="YIELD_PRODUCTION" Cost="120"/>
+		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" YieldType="YIELD_PRODUCTION" Cost="30"/>
+	</Unit_Costs>
+	<UnitUpgrades>
+		<!--Civ Unique Military-->
+		<Row Unit="UNIT_BOAR_WARRIOR_JEC" UpgradeUnit="UNIT_BOAR_WARRIOR_JEC_2"/>
+	</UnitUpgrades>
+	<UnitUpgradeKills>
+
+	</UnitUpgradeKills>
+	<UnitReplaces>
+		<!--Civ Unique Military-->
+		<Row CivUniqueUnitType="UNIT_BOAR_WARRIOR_JEC" ReplacesUnitType="UNIT_CHARIOT"/>
+		<Row CivUniqueUnitType="UNIT_BOAR_WARRIOR_JEC_2" ReplacesUnitType="UNIT_HORSEMAN"/>
+
+		<Row CivUniqueUnitType="UNIT_WOLF_WARRIOR_JEC" ReplacesUnitType="UNIT_SCOUT"/>
+	</UnitReplaces>
+	<Tags>
+		<!--Civ Unique Military-->
+		<Row Tag="UNIT_CLASS_BOAR_WARRIOR_JEC" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_WOLF_WARRIOR_JEC" Category="UNIT_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!--Civ Unique Military-->
+		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_BOAR_WARRIOR_JEC"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_UNIQUE"/>
+
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Tag="UNIT_CLASS_BOAR_WARRIOR_JEC"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Tag="UNIT_CLASS_UNIQUE"/>
+		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_RECON"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_RECON_ABILITIES"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_AUTOEXPLORE"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_INFLUENCE_INDEPENDENT"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_WOLF_WARRIOR_JEC"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_PET_THE_DOG"/>
+		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_UNIQUE"/>
+
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" UnitClassType="UNIT_CLASS_BOAR_WARRIOR_JEC"/>
+		<Row UnitAbilityType="ABILITY_WOLF_WARRIOR_JEC" UnitClassType="UNIT_CLASS_WOLF_WARRIOR_JEC"/>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<!--Unique-->
+		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_ABILITY_BOAR_WARRIOR_JEC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WOLF_WARRIOR_JEC" Name="LOC_UNIT_WOLF_WARRIOR_JEC_NAME" Description="LOC_ABILITY_WOLF_WARRIOR_JEC_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" ModifierId="MOD_GERMANIA_JEC_ADJUST_DAMAGE_ATTACK_MODIFIER"/>
+	</UnitAbilityModifiers>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+	</Unit_Advisories>
+</Database>
