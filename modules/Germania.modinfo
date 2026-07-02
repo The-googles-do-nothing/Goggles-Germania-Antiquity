@@ -161,7 +161,9 @@
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/ResourcesText.xml</Item>
+					<Item>text/en_us/UnitSharedText.xml</Item>	
 					<Item>text/en_us/UnitText.xml</Item>	
+					<Item>text/en_us/UnitExplorationText.xml</Item>	
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
                 </UpdateText>
@@ -183,6 +185,8 @@
 					<Item>data/unlocks.xml</Item>
 					<Item>data/wonders-shared.xml</Item>
 					<Item>data/wonders-shared-gameeffects.xml</Item>
+					<Item>data/units-shared.xml</Item>
+					<Item>data/units-shared-gameeffects.xml</Item>
                 </UpdateDatabase>
 
                 <ImportFiles>
@@ -234,9 +238,6 @@
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique.xml</Item>
 
-					<Item>data/units-shared.xml</Item>
-					<Item>data/units-shared-gameeffects.xml</Item>
-
 					<Item>data/progression-trees-tech-common.xml</Item>
 
 					<Item>data/unit-promotions-antiquity.xml</Item>
@@ -257,6 +258,8 @@
 					<Item>data/civilizations-exploration.xml</Item>
 					<Item>data/progression-trees-culture-unique-ex.xml</Item>
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
+					<Item>data/units-exploration.xml</Item>
+					<Item>data/units-exploration-gameeffects.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -294,6 +297,7 @@
 					<Item>icons/unitflag_boar_warrior_jec.png</Item>
 					<Item>icons/unitflag_boar_warrior_jec_2.png</Item>
 					<Item>icons/unitflag_wolf_warrior_jec.png</Item>
+					<Item>icons/unitflag_kuningaz_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -311,7 +315,9 @@
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/NarrativeStoriesText.xml</Item>
 					<Item>text/en_us/ResourcesText.xml</Item>
+					<Item>text/en_us/UnitSharedText.xml</Item>	
 					<Item>text/en_us/UnitText.xml</Item>	
+					<Item>text/en_us/UnitExplorationText.xml</Item>	
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>

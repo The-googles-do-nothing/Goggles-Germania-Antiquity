@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-
+	<Modifier id="MOD_BERSERKER_JEC_EMBARKED_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_EMBARKED_STRENGTH_MODIFIER">
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_ABILITY_GERMANIA_EMBARKED_COMBAT_STRENGTH_JEC_PREVIEW</String>
+	</Modifier>
 
 </GameEffects>

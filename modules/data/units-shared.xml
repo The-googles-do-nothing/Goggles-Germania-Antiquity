@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<!-- greatperson -->
+		<!-- army -->
+		<Row Type="UNIT_KUNINGAZ_JEC" Kind="KIND_UNIT"/>
+		<!-- shared -->
 		<Row Type="ABILITY_GERMANIA_MOVEMENT_JEC" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" Kind="KIND_ABILITY"/>
@@ -9,27 +11,42 @@
 		<Row Type="ABILITY_GERMANIA_COMBAT_BIOME_JEC" Kind="KIND_ABILITY"/>
 	</Types>
 	<Units>
+		<!-- army -->
+   		<Row UnitType="UNIT_KUNINGAZ_JEC" Name="LOC_UNIT_KUNINGAZ_JEC_NAME" Description="LOC_UNIT_KUNINGAZ_JEC_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" FoundCity="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="200" CanEarnExperience="true" PromotionClass="PROMOTION_CLASS_KUNINGAZ_COMMANDER" TraitType="TRAIT_GERMANIA_JEC"/>
+		
     </Units>
 	<Unit_Stats>
 
 	</Unit_Stats>
 	<Unit_Costs>
-
+		<!-- army -->
+		<Row UnitType="UNIT_KUNINGAZ_JEC" YieldType="YIELD_PRODUCTION" Cost="100"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 	</UnitUpgrades>
 	<UnitReplaces>
+		<!-- army -->
+		<Row CivUniqueUnitType="UNIT_KUNINGAZ_JEC" ReplacesUnitType="UNIT_ARMY_COMMANDER"/>
 	</UnitReplaces>
 	<Unit_TransitionRetains>
+		<Row UnitType="UNIT_KUNINGAZ_JEC"/>
 	</Unit_TransitionRetains>
 	<AiUnitEfficiencyBonuses>
 	</AiUnitEfficiencyBonuses>
 	<Tags>
-
+		<!-- army -->
+		<Row Tag="UNIT_CLASS_KUNINGAZ_JEC" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
+		<!-- army -->
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_COMMAND"/>
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_KUNINGAZ_JEC"/>
 	</TypeTags>
 	<UnitClass_Abilities>
+		<!-- army -->
+		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" UnitClassType="UNIT_CLASS_KUNINGAZ_JEC"/>
+		<!-- shared -->
 		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" UnitClassType="UNIT_CLASS_CREATE_TOWN"/>
 		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
 		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
@@ -38,6 +55,9 @@
 		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_BIOME_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
 	</UnitClass_Abilities>
 	<UnitAbilities>
+		<!-- army -->
+		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" Name="LOC_ABILITY_KUNINGAZ_JEC_NAME" Description="LOC_ABILITY_KUNINGAZ_JEC_DESCRIPTION"/>
+		<!-- shared -->
 		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_MOVEMENT_JEC_NAME" Description="LOC_ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_DESCRIPTION"/>
@@ -45,6 +65,9 @@
 		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_BIOME_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_BIOME_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_BIOME_JEC_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
+		<!-- army -->
+		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" ModifierId="MOD_KUNINGAZ_ADJUST_RESPAWN_SPEED"/>
+		<!-- shared -->
 		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" ModifierId="MOD_GERMANIA_MOVEMENT_JEC"/>
 		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" ModifierId="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC"/>
 		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" ModifierId="MOD_GERMANIA_COMBAT_STRENGTH_JEC"/>
@@ -55,7 +78,10 @@
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>
 	<Unit_Advisories>
-
+		<!-- army -->
+		<Row UnitType="UNIT_KUNINGAZ_JEC" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
+		<Row UnitType="UNIT_KUNINGAZ_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		
 	</Unit_Advisories>
 	<AIUnitPrioritizedActions>
 	</AIUnitPrioritizedActions>

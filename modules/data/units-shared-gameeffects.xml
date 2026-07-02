@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="SUEBI_MOD_SPLASH_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
-		<Argument name="Percent">25</Argument>
+	<!-- army -->
+	<Modifier id="MOD_KUNINGAZ_ADJUST_RESPAWN_SPEED" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_RESPAWN_SPEED">
+		<Argument name="Percent">-50</Argument>
 	</Modifier>
 
 	<!-- greatperson -->

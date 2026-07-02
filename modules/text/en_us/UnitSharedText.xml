@@ -14,7 +14,7 @@
 
 
         <!-- Unit previews -->
-		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW">
+		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW">
 			<Text>+1 movement</Text>
 		</Row>
 
@@ -27,7 +27,14 @@
 		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC_PREVIEW">
 			<Text>+{Amount} Vs Cavalry</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_PREVIEW">
+			<Text>+{Amount} Rout</Text>
+		</Row>
 
+
+		<Row Tag="LOC_ABILITY_GERMANIA_EMBARKED_COMBAT_STRENGTH_JEC_PREVIEW">
+			<Text>+{Amount} Embarked Combat Strength</Text>
+		</Row>
 
 
 	</EnglishText>

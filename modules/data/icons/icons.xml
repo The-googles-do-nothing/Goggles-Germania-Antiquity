@@ -78,6 +78,29 @@
             <Path>fs://game/goggles_civ_germania/icons/unitflag_wolf_warrior_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
+
+        <Row>
+            <ID>UNIT_KUNINGAZ_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_kuningaz_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+        <Row>
+            <ID>UNIT_BERSERKER_JEC</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_BERSERKER_JEC_2</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_2.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_BERSERKER_JEC_3</ID>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_3.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
         <!-- greatpeople -->
         <Row>
             <ID>UNIT_FOLC_JEC</ID>

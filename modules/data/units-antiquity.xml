@@ -9,10 +9,6 @@
 		<Row Type="UNIT_BOAR_WARRIOR_JEC" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Kind="KIND_UNIT"/>
-		<!-- army -->
-		<Row Type="UNIT_KUNINGAZ_JEC" Kind="KIND_UNIT"/>
-		
-
 		<!-- Civ Unique Civilian -->
 		<Row Type="UNIT_FOLC_JEC" Kind="KIND_UNIT"/>
 		<!-- Commander -->
@@ -45,9 +41,7 @@
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_UNIT_BOAR_WARRIOR_JEC_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_UNIT_BOAR_WARRIOR_JEC_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CanTrain="false" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" Name="LOC_UNIT_WOLF_WARRIOR_JEC_NAME" Description="LOC_UNIT_WOLF_WARRIOR_JEC_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="false" TraitType="TRAIT_GERMANIA_JEC"/>
-		<!-- army -->
-		<Row UnitType="UNIT_KUNINGAZ_JEC" Name="LOC_UNIT_KUNINGAZ_JEC_NAME" Description="LOC_UNIT_KUNINGAZ_JEC_DESCRIPTION" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" CanEarnExperience="true" PromotionClass="PROMOTION_CLASS_KUNINGAZ_COMMANDER" ManualDelete="false" CanTrain="false"/>
-	
+
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_FOLC_JEC" Name="LOC_UNIT_FOLC_JEC_NAME" Description="LOC_UNIT_FOLC_JEC_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_FOLC_JEC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" Description="LOC_UNIT_FOLC_JEC_TEUTOBOD_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
@@ -76,8 +70,7 @@
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" YieldType="YIELD_PRODUCTION" Cost="80"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" YieldType="YIELD_PRODUCTION" Cost="120"/>
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" YieldType="YIELD_PRODUCTION" Cost="30"/>
-		<!-- army -->
-		<Row UnitType="UNIT_KUNINGAZ_JEC" YieldType="YIELD_PRODUCTION" Cost="100"/>
+
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_FOLC_JEC" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_FOLC_JEC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="60"/>
@@ -104,12 +97,11 @@
 		<Row CivUniqueUnitType="UNIT_BOAR_WARRIOR_JEC" ReplacesUnitType="UNIT_CHARIOT"/>
 		<Row CivUniqueUnitType="UNIT_BOAR_WARRIOR_JEC_2" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_WOLF_WARRIOR_JEC" ReplacesUnitType="UNIT_SCOUT"/>
-		<!-- army -->
-		<Row CivUniqueUnitType="UNIT_KUNINGAZ_JEC" ReplacesUnitType="UNIT_ARMY_COMMANDER"/>
+
 		<!-- Civ Unique Civilian -->
 	</UnitReplaces>
 	<Unit_TransitionRetains>
-		<Row UnitType="UNIT_KUNINGAZ_JEC"/>
+
 	</Unit_TransitionRetains>
 	<AiUnitEfficiencyBonuses>
 	</AiUnitEfficiencyBonuses>
@@ -118,8 +110,6 @@
 		<Row Tag="UNIT_CLASS_SUEBI_JEC" Category="UNIT_CLASS"/>
 		<Row Tag="UNIT_CLASS_BOAR_WARRIOR_JEC" Category="UNIT_CLASS"/>
 		<Row Tag="UNIT_CLASS_WOLF_WARRIOR_JEC" Category="UNIT_CLASS"/>
-		<!-- army -->
-		<Row Tag="UNIT_CLASS_KUNINGAZ_JEC" Category="UNIT_CLASS"/>
 
 		<!-- Civ Unique Civilian -->
 		<Row Tag="UNIT_CLASS_FOLC_JEC" Category="UNIT_CLASS"/>
@@ -164,13 +154,6 @@
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_WOLF_WARRIOR_JEC"/>
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_PET_THE_DOG"/>
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_UNIQUE"/>
-		<!-- army -->
-		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_COMMAND"/>
-		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_ARMY_COMMANDER"/>
-		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_KUNINGAZ_JEC"/>
-		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_NO_INDEPENDENTS"/>
-		<Row Type="UNIT_KUNINGAZ_JEC" Tag="AGELESS"/>
-
 		<!-- Civ Unique Civilian -->
 		<Row Type="UNIT_FOLC_JEC" Tag="UNIT_CLASS_GREATPERSON"/>
 		<Row Type="UNIT_FOLC_JEC" Tag="UNIT_CLASS_FOLC_JEC"/>
@@ -197,24 +180,18 @@
 		<Row UnitAbilityType="ABILITY_SUEBI" UnitClassType="UNIT_CLASS_SUEBI_JEC"/>
 		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" UnitClassType="UNIT_CLASS_BOAR_WARRIOR_JEC"/>
 		<Row UnitAbilityType="ABILITY_WOLF_WARRIOR_JEC" UnitClassType="UNIT_CLASS_WOLF_WARRIOR_JEC"/>
-		<!-- army -->
-		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" UnitClassType="UNIT_CLASS_KUNINGAZ_JEC"/>
-		<!-- greatperson -->
-
 	</UnitClass_Abilities>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_SUEBI" Name="LOC_ABILITY_SUEBI_NAME" Description="LOC_ABILITY_SUEBI_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_ABILITY_BOAR_WARRIOR_JEC_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_WOLF_WARRIOR_JEC" Name="LOC_UNIT_WOLF_WARRIOR_JEC_NAME" Description="LOC_ABILITY_WOLF_WARRIOR_JEC_DESCRIPTION"/>
-		<!-- army -->
-		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" Name="LOC_ABILITY_KUNINGAZ_JEC_NAME" Description="LOC_ABILITY_KUNINGAZ_JEC_DESCRIPTION"/>
+
 		<!-- greatperson -->
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="MOD_SUEBI_JEC_SPLASH_DAMAGE"/>
 		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" ModifierId="MOD_BOAR_WARRIOR_JEC_ADJUST_DAMAGE_ATTACK_MODIFIER"/>
-		<!-- army -->
-		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" ModifierId="MOD_KUNINGAZ_ADJUST_RESPAWN_SPEED"/>
+
 		<!-- greatperson -->
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
@@ -228,8 +205,7 @@
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<!-- army -->
-		<Row UnitType="UNIT_KUNINGAZ_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_FOLC_JEC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
 	</Unit_Advisories>

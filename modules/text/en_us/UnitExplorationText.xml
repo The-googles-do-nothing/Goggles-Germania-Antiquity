@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Units -->
+		<Row Tag="LOC_UNIT_BERSERKER_JEC_NAME">
+			<Text>BERSERKER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BERSERKER_JEC_BASE_DESCRIPTION">
+			<Text>Germania Unique Infantry Unit. Increased Embarked Strength.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BERSERKER_JEC_DESCRIPTION">
+			<Text>Germania Unique Infantry Unit. Increased Embarked Strength.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BERSERKER_JEC_2_DESCRIPTION">
+			<Text>Tier 2 Germania Unique Infantry Unit. Increased Embarked Strength.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BERSERKER_JEC_3_DESCRIPTION">
+			<Text>Tier 3 Germania Unique Infantry Unit. Increased Embarked Strength.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>
