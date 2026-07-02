@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="SUEBI_MOD_SPLASH_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
+		<Argument name="Percent">25</Argument>
+	</Modifier>
+
+	<!-- greatperson -->
+	<!--Unit Abilities-->
+	<Modifier id="MOD_GERMANIA_MOVEMENT_JEC" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">ABILITY_GERMANIA_MOVEMENT_JEC_PREVIEW</String>
+	</Modifier>
+	<Modifier id="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">ABILITY_GERMANIA_MOVEMENT_JEC_PREVIEW</String>
+	</Modifier>
+	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_BIOME_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_MOD_GERMANIA_COMBAT_STRENGTH_BIOME_JEC_PREVIEW</String>
+	</Modifier>
+
+</GameEffects>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- greatperson -->
+		<Row Type="ABILITY_GERMANIA_MOVEMENT_JEC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" Kind="KIND_ABILITY"/>
+        <Row Type="ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GERMANIA_COMBAT_BIOME_JEC" Kind="KIND_ABILITY"/>
+	</Types>
+	<Units>
+    </Units>
+	<Unit_Stats>
+
+	</Unit_Stats>
+	<Unit_Costs>
+
+	</Unit_Costs>
+	<UnitUpgrades>
+	</UnitUpgrades>
+	<UnitReplaces>
+	</UnitReplaces>
+	<Unit_TransitionRetains>
+	</Unit_TransitionRetains>
+	<AiUnitEfficiencyBonuses>
+	</AiUnitEfficiencyBonuses>
+	<Tags>
+
+	</Tags>
+	<TypeTags>
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" UnitClassType="UNIT_CLASS_CREATE_TOWN"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_BIOME_JEC" UnitClassType="UNIT_CLASS_COMBAT"/>
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_MOVEMENT_JEC_NAME" Description="LOC_ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_BIOME_JEC" Inactive="true" Name="LOC_ABILITY_GERMANIA_COMBAT_BIOME_JEC_NAME" Description="LOC_ABILITY_GERMANIA_COMBAT_BIOME_JEC_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" ModifierId="MOD_GERMANIA_MOVEMENT_JEC"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_MOVEMENT_JEC" ModifierId="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC" ModifierId="MOD_GERMANIA_COMBAT_STRENGTH_JEC"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" ModifierId="MOD_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC"/>
+        <Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC" ModifierId="MOD_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC"/>
+		<Row UnitAbilityType="ABILITY_GERMANIA_COMBAT_BIOME_JEC" ModifierId="MOD_GERMANIA_COMBAT_STRENGTH_BIOME_JEC"/>
+	</UnitAbilityModifiers>
+	<ChargedUnitAbilities>
+	</ChargedUnitAbilities>
+	<Unit_Advisories>
+
+	</Unit_Advisories>
+	<AIUnitPrioritizedActions>
+	</AIUnitPrioritizedActions>
+
+</Database>

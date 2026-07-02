@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Unit Descriptions -->
+		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
+			<Text>+3 Combat Strength</Text>
+		</Row>
+		<Row Tag="ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION">
+			<Text>+1 movement</Text>
+		</Row>
+		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
+			<Text>+3 Combat Strength</Text>
+		</Row>
+
+
+        <!-- Unit previews -->
+		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW">
+			<Text>+1 movement</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_PREVIEW">
+			<Text>+{Amount} Rout</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_PREVIEW">
+			<Text>+{Amount} Frozen Warfare</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC_PREVIEW">
+			<Text>+{Amount} Vs Cavalry</Text>
+		</Row>
+
+
+
+	</EnglishText>
+</Database>

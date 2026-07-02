@@ -234,11 +234,14 @@
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/progression-trees-culture-unique.xml</Item>
 
+					<Item>data/units-shared.xml</Item>
+					<Item>data/units-shared-gameeffects.xml</Item>
+
 					<Item>data/progression-trees-tech-common.xml</Item>
 
-					<Item>data/units.xml</Item>
-					<Item>data/units-gameeffects.xml</Item>
-					
+					<Item>data/unit-promotions-antiquity.xml</Item>
+					<Item>data/unit-promotions-gameeffects-antiquity.xml</Item>
+
 					<Item>data/units-antiquity.xml</Item>
 					<Item>data/units-antiquity-gameeffects.xml</Item>
 

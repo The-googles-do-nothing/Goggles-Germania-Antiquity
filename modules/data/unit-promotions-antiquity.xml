@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_PROMOTION"/>
+		<InsertOrIgnore Kind="KIND_PROMOTION_CLASS"/>
+		<InsertOrIgnore Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
+	</Kinds>
+	<Types>
+		<!-- DISCIPLINE_CLASS -->
+		<Row Type="DISCIPLINE_ARMY_KUNINGAZ" Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
+		<!-- PROMOTION_CLASS -->
+		<Row Type="PROMOTION_CLASS_KUNINGAZ_COMMANDER" Kind="KIND_PROMOTION_CLASS"/>
+		<!-- COMMENDATION -->
+		<Row Type="DISCIPLINE_ARMY_KUNINGAZ_COMMENDATION_HAFTAZ" Kind="KIND_PROMOITON_DISCIPLINE_CLASS"/>
+		<!-- PROMOTION -->
+		<Row Type="PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ" Kind="KIND_PROMOTION"/>
+
+		<!-- Level 0 -->
+		<!-- Level 1 -->
+		<Row Type="PROMOTION_ARMY_KUNINGAZ_ROUT" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ARMY_KUNINGAZ_INCANTATIONS" Kind="KIND_PROMOTION"/>
+
+		<!-- Level 2 -->
+		<Row Type="PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE" Kind="KIND_PROMOTION"/>
+		
+		<!-- Level 3 -->
+
+
+		<!-- Level 4 -->
+
+		
+		<!-- Level 5 -->
+
+		
+		<!-- ABILITY -->
+		<!-- ARMY KUNINGAZ COMMENDATIONS -->
+		<Row Type="ABILITY_ARMY_KUNINGAZ_HAFTAZ" Kind="KIND_ABILITY"/>
+
+
+	</Types>
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" Name="LOC_PROMOTION_CLASS_KUNINGAZ_COMMANDER_NAME"/>
+	</UnitPromotionClasses>
+	<UnitPromotionDisciplines>
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" Name="LOC_DISCIPLINE_ARMY_KUNINGAZ_NAME" BackgroundImage="cPromo_bg_army_assault.png"/>	
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ_COMMENDATION_HAFTAZ" Name="LOC_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_NAME" BackgroundImage=""/>
+	
+	</UnitPromotionDisciplines>
+	<UnitPromotionClassSets>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ_COMMENDATION_HAFTAZ"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_VALOR"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_DUTY"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_MERIT"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_COMMENDATION_ORDER"/>
+
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_BASTION"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_LOGISTICS"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_MANEUVER"/>
+		<Row PromotionClassType="PROMOTION_CLASS_KUNINGAZ_COMMANDER" UnitPromotionDisciplineType="DISCIPLINE_ARMY_LEADERSHIP"/>
+
+	</UnitPromotionClassSets>
+	<UnitPromotionDisciplineDetails>
+		<!-- ARMY KUNINGAZ COMMENDATIONS -->
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ_COMMENDATION_HAFTAZ" UnitPromotionType="PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ"/>
+
+		<!-- ARMY KUNINGAZ PROMOTION -->
+		<!-- Level 0 -->
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" UnitPromotionType="PROMOTION_ARMY_INITIATIVE"/>
+		<!-- Level 1 -->
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_ROUT" PrereqUnitPromotion="PROMOTION_ARMY_INITIATIVE"/>
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_INCANTATIONS" PrereqUnitPromotion="PROMOTION_ARMY_INITIATIVE"/>
+		
+		<!-- Level 2 -->
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE" PrereqUnitPromotion="PROMOTION_ARMY_KUNINGAZ_ROUT"/>
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE" PrereqUnitPromotion="PROMOTION_ARMY_KUNINGAZ_INCANTATIONS"/>
+
+		<!-- Level 3 -->
+
+		<!-- Level 4 -->
+
+		<!-- Level 5 -->
+		<Row UnitPromotionDisciplineType="DISCIPLINE_ARMY_KUNINGAZ" UnitPromotionType="PROMOTION_ARMY_ADVANCEMENT" PrereqUnitPromotion="PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE" GrantsCommendation="true"/>
+		
+	</UnitPromotionDisciplineDetails>
+	<UnitPromotions>
+		<!-- ARMY KUNINGAZ COMMENDATIONS -->
+		<Row UnitPromotionType="PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ" Name="LOC_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_NAME" Description="LOC_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_DESCRIPTION" Commendation="true"/>
+
+		<!-- ARMY KUNINGAZ PROMOTION -->
+		<!-- Level 0 -->
+
+		<!-- Level 1 -->
+		<Row UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_ROUT" Name="LOC_PROMOTION_ARMY_KUNINGAZ_ROUT_NAME" Description="LOC_PROMOTION_ARMY_KUNINGAZ_ROUT_DESCRIPTION" />
+		<Row UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_INCANTATIONS" Name="LOC_PROMOTION_ARMY_KUNINGAZ_INCANTATIONS_NAME" Description="LOC_PROMOTION_ARMY_KUNINGAZ_INCANTATIONS_DESCRIPTION" />
+		<!-- Level 2 -->
+		<Row UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE" Name="LOC_PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE_NAME" Description="LOC_PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE_DESCRIPTION" />
+
+		<!-- Level 3 -->
+
+		<!-- Level 4 -->
+
+		<!-- Level 5 -->
+	</UnitPromotions>
+	<UnitPromotionModifiers>
+		<!-- ARMY KUNINGAZ COMMENDATIONS -->
+		<Row UnitPromotionType="PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ" ModifierId="MOD_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_CAPTURE"/>
+
+		<!-- ARMY KUNINGAZ PROMOTION -->
+		<!-- Level 0 -->
+
+		<!-- Level 1 -->
+		<Row UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_ROUT" ModifierId="MOD_PROMOTION_ARMY_KUNINGAZ_ROUT"/>
+		<Row UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_INCANTATIONS" ModifierId="MOD_PROMOTION_ARMY_KUNINGAZ_INCANTATIONS"/>
+
+		<!-- Level 2 -->
+		<Row UnitPromotionType="PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE" ModifierId="MOD_PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE"/>
+
+
+		<!-- Level 3 -->
+
+		<!-- Level 4 -->
+
+		<!-- Level 5 -->
+
+	</UnitPromotionModifiers>
+	<UnitAbilities>
+		<!-- ARMY KUNINGAZ COMMENDATIONS -->
+		<Row UnitAbilityType="ABILITY_ARMY_KUNINGAZ_HAFTAZ" Name="LOC_ABILITY_ARMY_KUNINGAZ_HAFTAZ_NAME" Description="LOC_ABILITY_ARMY_KUNINGAZ_HAFTAZ_DESCRIPTION" Inactive="true" Permanent="false"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- ARMY KUNINGAZ COMMENDATIONS -->
+		<Row UnitAbilityType="ABILITY_ARMY_KUNINGAZ_HAFTAZ" ModifierId="MOD_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_CAPTURE"/>
+	</UnitAbilityModifiers>
+</Database>
+

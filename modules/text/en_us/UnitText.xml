@@ -43,14 +43,19 @@
 		<Row Tag="LOC_UNIT_WOLF_WARRIOR_JEC_2_DESCRIPTION">
 			<Text>Tier 2 Germania Unique Scout Unit. Can attack.</Text>
 		</Row>
+		<!-- army -->
+		<Row Tag="LOC_UNIT_KUNINGAZ_JEC_NAME">
+			<Text>Kuningaz (King)</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KUNINGAZ_JEC_DESCRIPTION">
+			<Text>Germania's Unique Army Commander. Ageless. Has has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree. Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Persists across Age Transition.</Text>
+		</Row>
+		<!-- Unique -->
+		<Row Tag="LOC_DISCIPLINE_ARMY_KUNINGAZ_NAME">
+			<Text>Kuningaz</Text>
+		</Row>
 
-		<!-- Unit Abilities -->
-		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
-			<Text>+3 Combat Strength</Text>
-		</Row>
-		<Row Tag="ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION">
-			<Text>+1 movement</Text>
-		</Row>
+
 
 
 	</EnglishText>

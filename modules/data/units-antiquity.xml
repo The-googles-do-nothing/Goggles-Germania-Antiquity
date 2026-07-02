@@ -1,56 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<!--Civ Unique Military bear warriors-->
+		<!-- Civ Unique Military -->
+		<Row Type="UNIT_SUEBI_JEC" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUEBI_JEC_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUEBI_JEC_3" Kind="KIND_UNIT"/>
+
 		<Row Type="UNIT_BOAR_WARRIOR_JEC" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_BOAR_WARRIOR_JEC_2" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Kind="KIND_UNIT"/>
-		<!--Civ Unique Abilities-->
+		<!-- army -->
+		<Row Type="UNIT_KUNINGAZ_JEC" Kind="KIND_UNIT"/>
+		
+
+		<!-- Civ Unique Civilian -->
+		<Row Type="UNIT_FOLC_JEC" Kind="KIND_UNIT"/>
+		<!-- Commander -->
+		<Row Type="UNIT_FOLC_JEC_TEUTOBOD" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_JEC_ARIOVISTUS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_JEC_VIBILIUS" Kind="KIND_UNIT"/>
+		<!-- Diplomatic -->
+		<Row Type="UNIT_FOLC_JEC_CIVILIS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_JEC_VELEDA" Kind="KIND_UNIT"/>
+		<!-- Resouces -->
+		<Row Type="UNIT_FOLC_JEC_PIPARA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_JEC_RAICUNDA" Kind="KIND_UNIT"/>
+		<!-- Units -->
+		<Row Type="UNIT_FOLC_JEC_HERMANAFRID" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_FOLC_JEC_BOIORIX" Kind="KIND_UNIT"/>
+		<!-- Unique Abilities -->
+		<Row Type="ABILITY_SUEBI" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_BOAR_WARRIOR" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_WOLF_WARRIOR_JEC" Kind="KIND_ABILITY"/>
+		<!-- army -->
+		<Row Type="ABILITY_KUNINGAZ_JEC" Kind="KIND_ABILITY"/>
+		<!-- greatperson -->
+
 	</Types>
 	<Units>
-		<!--Civ Unique Military-->
+		<!-- Civ Unique Military -->
+		<Row UnitType="UNIT_SUEBI_JEC" Name="LOC_UNIT_SUEBI_JEC_NAME" Description="LOC_UNIT_SUEBI_JEC_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
+		<Row UnitType="UNIT_SUEBI_JEC_2" Name="LOC_UNIT_SUEBI_JEC_NAME" Description="LOC_UNIT_SUEBI_JEC_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
+		<Row UnitType="UNIT_SUEBI_JEC_3" Name="LOC_UNIT_SUEBI_JEC_NAME" Description="LOC_UNIT_SUEBI_JEC_3_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_UNIT_BOAR_WARRIOR_JEC_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_UNIT_BOAR_WARRIOR_JEC_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CanTrain="false" TraitType="TRAIT_GERMANIA_JEC"/>
-
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" Name="LOC_UNIT_WOLF_WARRIOR_JEC_NAME" Description="LOC_UNIT_WOLF_WARRIOR_JEC_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_RECON" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="false" TraitType="TRAIT_GERMANIA_JEC"/>
+		<!-- army -->
+		<Row UnitType="UNIT_KUNINGAZ_JEC" Name="LOC_UNIT_KUNINGAZ_JEC_NAME" Description="LOC_UNIT_KUNINGAZ_JEC_DESCRIPTION" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" CanEarnExperience="true" PromotionClass="PROMOTION_CLASS_KUNINGAZ_COMMANDER" ManualDelete="false" CanTrain="false"/>
+	
+		<!-- Civ Unique Civilian -->
+		<Row UnitType="UNIT_FOLC_JEC" Name="LOC_UNIT_FOLC_JEC_NAME" Description="LOC_UNIT_FOLC_JEC_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC"/>
+		<Row UnitType="UNIT_FOLC_JEC_TEUTOBOD" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_TEUTOBOD_NAME" Description="LOC_UNIT_FOLC_JEC_TEUTOBOD_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_ARIOVISTUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_ARIOVISTUS_NAME" Description="LOC_UNIT_FOLC_JEC_ARIOVISTUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_VIBILIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VIBILIUS_NAME" Description="LOC_UNIT_FOLC_JEC_VIBILIUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_CIVILIS" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_CIVILIS_NAME" Description="LOC_UNIT_FOLC_JEC_CIVILIS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_VELEDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_VELEDA_NAME" Description="LOC_UNIT_FOLC_JEC_VELEDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_PIPARA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_PIPARA_NAME" Description="LOC_UNIT_FOLC_JEC_PIPARA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_RAICUNDA" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_RAICUNDA_NAME" Description="LOC_UNIT_FOLC_JEC_RAICUNDA_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_HERMANAFRID" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_HERMANAFRID_NAME" Description="LOC_UNIT_FOLC_JEC_HERMANAFRID_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
+		<Row UnitType="UNIT_FOLC_JEC_BOIORIX" Name="LOC_GREAT_PERSON_INDIVIDUAL_FOLC_BOIORIX_NAME" Description="LOC_UNIT_FOLC_JEC_BOIORIX_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="TRAIT_GERMANIA_JEC" CanTrain="false" CanPurchase="false"/>
 	</Units>
 	<Unit_Stats>
-		<!--Civ Unique Military-->
+		<Row UnitType="UNIT_SUEBI_JEC" Combat="20"/>
+		<Row UnitType="UNIT_SUEBI_JEC_2" Combat="25"/>
+		<Row UnitType="UNIT_SUEBI_JEC_3" Combat="30"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" Combat="30"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" Combat="35"/>
-
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" Combat="15"/>
-		<!--Civ Unique Civilian-->
 	</Unit_Stats>
 	<Unit_Costs>
-		<!--Civ Unique Military-->
+		<!-- Civ Unique Military -->
+		<Row UnitType="UNIT_SUEBI_JEC" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<Row UnitType="UNIT_SUEBI_JEC_2" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_SUEBI_JEC_3" YieldType="YIELD_PRODUCTION" Cost="100"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" YieldType="YIELD_PRODUCTION" Cost="80"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" YieldType="YIELD_PRODUCTION" Cost="120"/>
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" YieldType="YIELD_PRODUCTION" Cost="30"/>
+		<!-- army -->
+		<Row UnitType="UNIT_KUNINGAZ_JEC" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<!-- Civ Unique Civilian -->
+		<Row UnitType="UNIT_FOLC_JEC" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_TEUTOBOD" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_ARIOVISTUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_VIBILIUS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_CIVILIS" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_VELEDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_PIPARA" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_RAICUNDA" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_HERMANAFRID" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_FOLC_JEC_BOIORIX" YieldType="YIELD_PRODUCTION" Cost="60"/>
 	</Unit_Costs>
 	<UnitUpgrades>
-		<!--Civ Unique Military-->
+		<!-- Civ Unique Military -->
+		<Row Unit="UNIT_SUEBI_JEC" UpgradeUnit="UNIT_SUEBI_JEC_2"/>
+		<Row Unit="UNIT_SUEBI_JEC_2" UpgradeUnit="UNIT_SUEBI_JEC_3"/>
 		<Row Unit="UNIT_BOAR_WARRIOR_JEC" UpgradeUnit="UNIT_BOAR_WARRIOR_JEC_2"/>
 	</UnitUpgrades>
-	<UnitUpgradeKills>
-
-	</UnitUpgradeKills>
 	<UnitReplaces>
-		<!--Civ Unique Military-->
+		<!-- Civ Unique Military -->
+		<Row CivUniqueUnitType="UNIT_SUEBI_JEC" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_SUEBI_JEC_2" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_SUEBI_JEC_3" ReplacesUnitType="UNIT_PHALANX"/>
 		<Row CivUniqueUnitType="UNIT_BOAR_WARRIOR_JEC" ReplacesUnitType="UNIT_CHARIOT"/>
 		<Row CivUniqueUnitType="UNIT_BOAR_WARRIOR_JEC_2" ReplacesUnitType="UNIT_HORSEMAN"/>
-
 		<Row CivUniqueUnitType="UNIT_WOLF_WARRIOR_JEC" ReplacesUnitType="UNIT_SCOUT"/>
+		<!-- army -->
+		<Row CivUniqueUnitType="UNIT_KUNINGAZ_JEC" ReplacesUnitType="UNIT_ARMY_COMMANDER"/>
+		<!-- Civ Unique Civilian -->
 	</UnitReplaces>
+	<Unit_TransitionRetains>
+		<Row UnitType="UNIT_KUNINGAZ_JEC"/>
+	</Unit_TransitionRetains>
+	<AiUnitEfficiencyBonuses>
+	</AiUnitEfficiencyBonuses>
 	<Tags>
-		<!--Civ Unique Military-->
+		<!-- Civ Unique Military -->
+		<Row Tag="UNIT_CLASS_SUEBI_JEC" Category="UNIT_CLASS"/>
 		<Row Tag="UNIT_CLASS_BOAR_WARRIOR_JEC" Category="UNIT_CLASS"/>
 		<Row Tag="UNIT_CLASS_WOLF_WARRIOR_JEC" Category="UNIT_CLASS"/>
+		<!-- army -->
+		<Row Tag="UNIT_CLASS_KUNINGAZ_JEC" Category="UNIT_CLASS"/>
+
+		<!-- Civ Unique Civilian -->
+		<Row Tag="UNIT_CLASS_FOLC_JEC" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
-		<!--Civ Unique Military-->
+		<!-- Civ Unique Military -->
+		<Row Type="UNIT_SUEBI_JEC" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SUEBI_JEC" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SUEBI_JEC" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SUEBI_JEC" Tag="UNIT_CLASS_SUEBI_JEC"/>
+
+		<Row Type="UNIT_SUEBI_JEC_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SUEBI_JEC_2" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SUEBI_JEC_2" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SUEBI_JEC_2" Tag="UNIT_CLASS_SUEBI_JEC"/>
+		
+		<Row Type="UNIT_SUEBI_JEC_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_SUEBI_JEC_3" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_SUEBI_JEC_3" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_SUEBI_JEC_3" Tag="UNIT_CLASS_SUEBI_JEC"/>
+		<Row Type="UNIT_SUEBI_JEC_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+
 		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_BOAR_WARRIOR_JEC" Tag="UNIT_CLASS_INFANTRY"/>
@@ -73,23 +164,77 @@
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_WOLF_WARRIOR_JEC"/>
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_PET_THE_DOG"/>
 		<Row Type="UNIT_WOLF_WARRIOR_JEC" Tag="UNIT_CLASS_UNIQUE"/>
+		<!-- army -->
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_COMMAND"/>
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_KUNINGAZ_JEC"/>
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="UNIT_CLASS_NO_INDEPENDENTS"/>
+		<Row Type="UNIT_KUNINGAZ_JEC" Tag="AGELESS"/>
 
+		<!-- Civ Unique Civilian -->
+		<Row Type="UNIT_FOLC_JEC" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_TEUTOBOD" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_TEUTOBOD" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_ARIOVISTUS" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_ARIOVISTUS" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_VIBILIUS" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_VIBILIUS" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_CIVILIS" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_CIVILIS" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_VELEDA" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_VELEDA" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_PIPARA" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_PIPARA" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_RAICUNDA" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_RAICUNDA" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_HERMANAFRID" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_HERMANAFRID" Tag="UNIT_CLASS_FOLC_JEC"/>
+		<Row Type="UNIT_FOLC_JEC_BOIORIX" Tag="UNIT_CLASS_GREATPERSON"/>
+		<Row Type="UNIT_FOLC_JEC_BOIORIX" Tag="UNIT_CLASS_FOLC_JEC"/>
 	</TypeTags>
 	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_SUEBI" UnitClassType="UNIT_CLASS_SUEBI_JEC"/>
 		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" UnitClassType="UNIT_CLASS_BOAR_WARRIOR_JEC"/>
 		<Row UnitAbilityType="ABILITY_WOLF_WARRIOR_JEC" UnitClassType="UNIT_CLASS_WOLF_WARRIOR_JEC"/>
+		<!-- army -->
+		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" UnitClassType="UNIT_CLASS_KUNINGAZ_JEC"/>
+		<!-- greatperson -->
+
 	</UnitClass_Abilities>
 	<UnitAbilities>
-		<!--Unique-->
+		<Row UnitAbilityType="ABILITY_SUEBI" Name="LOC_ABILITY_SUEBI_NAME" Description="LOC_ABILITY_SUEBI_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" Name="LOC_UNIT_BOAR_WARRIOR_JEC_NAME" Description="LOC_ABILITY_BOAR_WARRIOR_JEC_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_WOLF_WARRIOR_JEC" Name="LOC_UNIT_WOLF_WARRIOR_JEC_NAME" Description="LOC_ABILITY_WOLF_WARRIOR_JEC_DESCRIPTION"/>
+		<!-- army -->
+		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" Name="LOC_ABILITY_KUNINGAZ_JEC_NAME" Description="LOC_ABILITY_KUNINGAZ_JEC_DESCRIPTION"/>
+		<!-- greatperson -->
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" ModifierId="MOD_GERMANIA_JEC_ADJUST_DAMAGE_ATTACK_MODIFIER"/>
+		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="MOD_SUEBI_JEC_SPLASH_DAMAGE"/>
+		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" ModifierId="MOD_BOAR_WARRIOR_JEC_ADJUST_DAMAGE_ATTACK_MODIFIER"/>
+		<!-- army -->
+		<Row UnitAbilityType="ABILITY_KUNINGAZ_JEC" ModifierId="MOD_KUNINGAZ_ADJUST_RESPAWN_SPEED"/>
+		<!-- greatperson -->
 	</UnitAbilityModifiers>
+	<ChargedUnitAbilities>
+	</ChargedUnitAbilities>
 	<Unit_Advisories>
+		<!-- Civ Unique Military -->
+		<Row UnitType="UNIT_SUEBI_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_SUEBI_JEC_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_SUEBI_JEC_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_BOAR_WARRIOR_JEC_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_WOLF_WARRIOR_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<!-- army -->
+		<Row UnitType="UNIT_KUNINGAZ_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<!-- Civ Unique Civilian -->
+		<Row UnitType="UNIT_FOLC_JEC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
 	</Unit_Advisories>
+	<AIUnitPrioritizedActions>
+		<Row UnitType="UNIT_FOLC_JEC" CommandType="UNITCOMMAND_ACTIVATE_GREAT_PERSON" />
+	</AIUnitPrioritizedActions>
+
 </Database>
