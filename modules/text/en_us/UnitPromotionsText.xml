@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Unique -->
+		<!-- Unique -->
+		<Row Tag="LOC_DISCIPLINE_ARMY_KUNINGAZ_NAME">
+			<Text>Kuningaz</Text>
+		</Row>
+		<!-- Level 0 -->
+
+		<!-- Level 1 -->
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_ROUT_NAME">
+			<Text>Rout</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_ROUT_DESCRIPTION">
+			<Text>+3 Combat Strength for Infantry Units within the Command Radius when attacking.</Text>
+		</Row>
+
+		<!-- Level 2 -->
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_INCANTATIONS_NAME">
+			<Text>Incantations</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_INCANTATIONS_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness for each Unit packed in this Commander.</Text>
+		</Row>
+
+		<!-- Level 3 -->
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE_NAME">
+			<Text>Frozen Warfare</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_FROZEN_WARFARE_DESCRIPTION">
+			<Text>+3 Combat Strength for Infantry Units in Tundra Terrain in the Command Radius.</Text>
+		</Row>
+
+
+		<!-- Level 4 -->
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_VAE_VICTIS_NAME">
+			<Text>Vae Victis</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ARMY_KUNINGAZ_VAE_VICTIS_DESCRIPTION">
+			<Text>Defeating an enemy Unit provides [icon:YIELD_GOLD] [B]Gold [/B]equal to [B]50% [/B]of its [B]Combat Strength[/B].</Text>
+		</Row>
+		
+		<!-- Level 5 -->
+
+
+		<!-- Level Comendation -->
+
+		<Row Tag="LOC_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_NAME">
+			<Text>Haftaz (captive, bound)</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_DESCRIPTION">
+			<Text>Infantry Units the Command Radius capture defeaded land Units and places under your control.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMMENDATION_KUNINGAZ_HAFTAZ_PREVIEW">
+			<Text>Infantry Unit defeating  Units captures that Unit under your control.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_COMMENDATION_KUNINGAZ_POLEARMS_NAME">
+			<Text>Polearms</Text>
+		</Row>
+
+
+
+	</EnglishText>
+</Database>

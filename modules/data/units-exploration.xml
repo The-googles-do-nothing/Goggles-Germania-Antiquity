@@ -70,6 +70,7 @@
 		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" Name="LOC_UNIT_BERSERKER_JEC_NAME" Description="LOC_ABILITY_BERSERKER_JEC_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC"/>
 		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_BERSERKER_JEC_EMBARKED_STRENGTH"/>
 		<!-- greatperson -->
 	</UnitAbilityModifiers>

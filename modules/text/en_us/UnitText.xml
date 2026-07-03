@@ -50,12 +50,6 @@
 		<Row Tag="LOC_UNIT_KUNINGAZ_JEC_DESCRIPTION">
 			<Text>Germania's Unique Army Commander. Ageless. Has has a [icon:NAR_REW_PROMOTION] Unique Promotion Tree. Faster respawn than other [icon:UNIT_ARMY_COMMANDER] Commanders if defeated. Persists across Age Transition.</Text>
 		</Row>
-		<!-- Unique -->
-		<Row Tag="LOC_DISCIPLINE_ARMY_KUNINGAZ_NAME">
-			<Text>Kuningaz</Text>
-		</Row>
-
-
 
 
 	</EnglishText>

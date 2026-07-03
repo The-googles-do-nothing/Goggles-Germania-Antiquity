@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Database>
-	<CivilizationItems>
-        <Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA_JEC" Type="UNIT_HERMANN_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_HERMANN_JEC_NAME" Description="LOC_UNIT_HERMANN_JEC_DESCRIPTION" Icon="ICON_UNIT_HERMANN_JEC"/>
-	</CivilizationItems>
-</Database>

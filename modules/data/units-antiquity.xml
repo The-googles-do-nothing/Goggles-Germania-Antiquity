@@ -191,7 +191,6 @@
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_SUEBI" ModifierId="MOD_SUEBI_JEC_SPLASH_DAMAGE"/>
 		<Row UnitAbilityType="ABILITY_BOAR_WARRIOR_JEC" ModifierId="MOD_BOAR_WARRIOR_JEC_ADJUST_DAMAGE_ATTACK_MODIFIER"/>
-
 		<!-- greatperson -->
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>

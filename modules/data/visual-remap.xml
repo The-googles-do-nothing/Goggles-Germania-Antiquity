@@ -63,12 +63,35 @@
 
         <!-- commander -->
         <Row>
-            <ID>REMAP_UNIT_ARMINIUS</ID>
-            <DisplayName>LOC_UNIT_ARMINIUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_KUNINGAZ_JEC</ID>
+            <DisplayName>LOC_UNIT_KUNINGAZ_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_ARMINIUS_JEC</From>
+            <From>UNIT_KUNINGAZ_JEC</From>
             <To>UNIT_ARMY_COMMANDER</To>
         </Row>
+
+        <Row>
+            <ID>REMAP_UNIT_BERSERKER_JEC</ID>
+            <DisplayName>LOC_UNIT_SUEBI_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BERSERKER_JEC</From>
+            <To>UNIT_SWORDSMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_BERSERKER_JEC_2</ID>
+            <DisplayName>LOC_UNIT_BERSERKER_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BERSERKER_JEC_2</From>
+            <To>UNIT_MAN_AT_ARMS</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_BERSERKER_JEC_3</ID>
+            <DisplayName>LOC_UNIT_BERSERKER_JEC_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BERSERKER_JEC_3</From>
+            <To>UNIT_PIKEMAN</To>
+        </Row>
+
         <!-- folc -->
         <Row>
             <ID>REMAP_UNIT_FOLC_JEC_TEUTOBOD</ID>

@@ -11,4 +11,10 @@
 		</SubjectRequirements>
 		<Argument name="Percent">125</Argument>
 	</Modifier>
+
+	<!-- <Modifier id="MOD_BOAR_WARRIOR_JEC_COMBAT_STRENGTH_PER_RESOURCE_WINE" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+		<Argument name="Amount">1</Argument>
+		<Argument name="ResourceType">RESOURCE_WINE</Argument>
+	</Modifier> -->
+
 </GameEffects>

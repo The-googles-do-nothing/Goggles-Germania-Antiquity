@@ -9,15 +9,15 @@
 	<!--Unit Abilities-->
 	<Modifier id="MOD_GERMANIA_MOVEMENT_JEC" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
 		<Argument name="Amount">1</Argument>
-		<String context="Preview">ABILITY_GERMANIA_MOVEMENT_JEC_PREVIEW</String>
+		<String context="Preview">LOC_ABILITY_GERMANIA_MOVEMENT_JEC_PREVIEW</String>
 	</Modifier>
 	<Modifier id="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
 		<Argument name="Amount">1</Argument>
-		<String context="Preview">ABILITY_GERMANIA_MOVEMENT_JEC_PREVIEW</String>
+		<String context="Preview">LOC_ABILITY_GERMANIA_EMBARKED_MOVEMENT_JEC_PREVIEW</String>
 	</Modifier>
 	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW</String>
+		<String context="Preview">LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW</String>
 	</Modifier>
 
 	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
@@ -40,7 +40,14 @@
 
 	<Modifier id="MOD_GERMANIA_COMBAT_STRENGTH_BIOME_JEC" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_MOD_GERMANIA_COMBAT_STRENGTH_BIOME_JEC_PREVIEW</String>
+		<String context="Preview">LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_BIOME_JEC_PREVIEW</String>
+	</Modifier>
+
+
+	<Modifier id="MOD_GERMANIA_GOLD_ON_UNIT_DEFEAT_JEC" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="PercentDefeatedStrength">50</Argument>
+		<String context="Preview">LOC_ABILITY_GERMANIA_GOLD_ON_UNIT_DEFEAT_JEC_PREVIEW</String>
 	</Modifier>
 
 </GameEffects>

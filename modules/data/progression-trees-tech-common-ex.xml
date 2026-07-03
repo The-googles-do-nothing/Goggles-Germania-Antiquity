@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTreeNodes>
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+        <Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_BERSERKER_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_BERSERKER_JEC_3" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+
+	</ProgressionTree_Advisories>
+</Database>

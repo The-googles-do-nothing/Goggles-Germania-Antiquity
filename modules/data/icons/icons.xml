@@ -87,17 +87,17 @@
 
         <Row>
             <ID>UNIT_BERSERKER_JEC</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec.png</Path>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_berserker_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_BERSERKER_JEC_2</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_2.png</Path>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_berserker_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_BERSERKER_JEC_3</ID>
-            <Path>fs://game/goggles_civ_germania/icons/unitflag_suebi_jec_3.png</Path>
+            <Path>fs://game/goggles_civ_germania/icons/unitflag_berserker_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 

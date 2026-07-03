@@ -79,73 +79,6 @@
 			</Actions>
 		</ActionGroup>
 		<!-- Germania -->
-		<ActionGroup id="age-antiquity-persist-arminius" scope="game" criteria="antiquity-age-persist">
-			<Actions>
-				<UpdateIcons>
-					<Item>arminius/data/icons/unit-icons.xml</Item>
-				</UpdateIcons>
-				<UpdateDatabase>
-					<Item>arminius/data/leaders-gameeffects.xml</Item>
-					<Item>arminius/data/leaders.xml</Item>
-					<Item>arminius/data/unit-promotions-antiquity.xml</Item>
-					<Item>arminius/data/unit-promotions-gameeffects-antiquity.xml</Item>
-					<Item>arminius/data/unit-promotions.xml</Item>
-					<Item>arminius/data/units-gameeffects.xml</Item>
-					<Item>arminius/data/units.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
-					<Item>arminius/text/en_us/UnitTextAntiquity.xml</Item>
-				</UpdateText>
-				<UIScripts>
-					<Item>arminius/ui/unit-promotion/model-unit-promotion.js</Item>
-				</UIScripts>
-				<ImportFiles>
-					<Item>icons/unitflag_hermann.png</Item>
-				</ImportFiles>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-exploration-persist-arminius" scope="game" criteria="exploration-age-persist">
-			<Actions>
-				<UpdateDatabase>
-					<Item>arminius/data/unit-promotions-exploration.xml</Item>
-					<Item>arminius/data/unit-promotions-gameeffects-exploration.xml</Item>	
-				</UpdateDatabase>
-				<UpdateText>
-					<Item>arminius/text/en_us/UnitTextExploration.xml</Item>
-				</UpdateText>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="age-modern-persist-arminius" scope="game" criteria="modern-age-persist">
-			<Actions>
-				<UpdateIcons>
-				</UpdateIcons>
-				<UpdateDatabase>
-					<Item>arminius/data/unit-promotions-modern.xml</Item>
-					<Item>arminius/data/unit-promotions-gameeffects-modern.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
-					<Item>arminius/text/en_us/UnitTextModern.xml</Item>
-				</UpdateText>
-				<UIScripts>
-				</UIScripts>
-			</Actions>
-		</ActionGroup>
-		<ActionGroup id="shell-arminius" scope="shell" criteria="always">
-			<Actions>
-				<UpdateIcons>
-					<Item>arminius/data/icons/unit-icons.xml</Item>
-				</UpdateIcons>
-				<UpdateDatabase>
-					<Item>arminius/data/config/config.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
-					<Item>arminius/text/en_us/UnitTextAntiquity.xml</Item>
-				</UpdateText>
-				<ImportFiles>
-					<Item>icons/unitflag_hermann.png</Item>
-				</ImportFiles>
-			</Actions>
-		</ActionGroup>
 		<!-- Age specific updates -->
 		<ActionGroup id="swiss-confederacy-text" scope="game" criteria="always">
 			<Actions>	
@@ -163,7 +96,8 @@
 					<Item>text/en_us/ResourcesText.xml</Item>
 					<Item>text/en_us/UnitSharedText.xml</Item>	
 					<Item>text/en_us/UnitText.xml</Item>	
-					<Item>text/en_us/UnitExplorationText.xml</Item>	
+					<Item>text/en_us/UnitExplorationText.xml</Item>
+					<Item>text/en_us/UnitPromotionsText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
                 </UpdateText>
@@ -187,6 +121,8 @@
 					<Item>data/wonders-shared-gameeffects.xml</Item>
 					<Item>data/units-shared.xml</Item>
 					<Item>data/units-shared-gameeffects.xml</Item>
+					<Item>data/unit-promotions-antiquity.xml</Item>
+					<Item>data/unit-promotions-gameeffects-antiquity.xml</Item>
                 </UpdateDatabase>
 
                 <ImportFiles>
@@ -207,6 +143,7 @@
 					<Item>icons/unitflag_boar_warrior_jec.png</Item>
 					<Item>icons/unitflag_boar_warrior_jec_2.png</Item>
 					<Item>icons/unitflag_wolf_warrior_jec.png</Item>
+					<Item>icons/unitflag_kuningaz_jec.png</Item>
 					<Item>icons/wondericon_haselgebrige_salt_mine.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -215,6 +152,9 @@
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
                 </UpdateVisualRemaps>
+				<UIScripts>
+					<Item>ui/unit-promotion/model-unit-promotion.js</Item>
+				</UIScripts>
             </Actions>
         </ActionGroup>
 
@@ -240,9 +180,6 @@
 
 					<Item>data/progression-trees-tech-common.xml</Item>
 
-					<Item>data/unit-promotions-antiquity.xml</Item>
-					<Item>data/unit-promotions-gameeffects-antiquity.xml</Item>
-
 					<Item>data/units-antiquity.xml</Item>
 					<Item>data/units-antiquity-gameeffects.xml</Item>
 
@@ -260,6 +197,7 @@
 					<Item>data/age-transition-advanced-start-exploration.xml</Item>
 					<Item>data/units-exploration.xml</Item>
 					<Item>data/units-exploration-gameeffects.xml</Item>
+					<Item>data/progression-trees-tech-common-ex.xml</Item>
 				</UpdateDatabase>
 			</Actions>
 		</ActionGroup>
@@ -318,6 +256,7 @@
 					<Item>text/en_us/UnitSharedText.xml</Item>	
 					<Item>text/en_us/UnitText.xml</Item>	
 					<Item>text/en_us/UnitExplorationText.xml</Item>	
+					<Item>text/en_us/UnitPromotionsText.xml</Item>	
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>

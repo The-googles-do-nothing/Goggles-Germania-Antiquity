@@ -2,40 +2,38 @@
 <Database>
 	<EnglishText>
 		<!-- Unit Descriptions -->
-		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
+		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
 			<Text>+3 Combat Strength</Text>
 		</Row>
-		<Row Tag="ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION">
+		<Row Tag="LOC_ABILITY_GERMANIA_MOVEMENT_JEC_DESCRIPTION">
 			<Text>+1 movement</Text>
 		</Row>
-		<Row Tag="ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_DESCRIPTION">
-			<Text>+3 Combat Strength</Text>
+		<Row Tag="LOC_ABILITY_GERMANIA_EMBARKED_MOVEMENT_JEC_PREVIEW">
+			<Text>+1 movement when embarked</Text>
 		</Row>
-
-
+		<Row Tag="LOC_ABILITY_GERMANIA_EMBARKED_COMBAT_STRENGTH_JEC_DESCRIPTION">
+			<Text>+3 Embarked Strength</Text>
+		</Row>
         <!-- Unit previews -->
 		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_JEC_PREVIEW">
 			<Text>+1 movement</Text>
 		</Row>
-
 		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_PREVIEW">
-			<Text>+{Amount} Rout</Text>
+			<Text>+{Amount} when Attacking</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_ARMY_ARMINIUS_FROZEN_WARFARE_PREVIEW">
-			<Text>+{Amount} Frozen Warfare</Text>
+		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_BIOME_JEC_PREVIEW">
+			<Text>+{Amount} in Tundra</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_VS_CAVALRY_JEC_PREVIEW">
 			<Text>+{Amount} Vs Cavalry</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_ATTACKING_JEC_PREVIEW">
-			<Text>+{Amount} Rout</Text>
-		</Row>
-
-
 		<Row Tag="LOC_ABILITY_GERMANIA_EMBARKED_COMBAT_STRENGTH_JEC_PREVIEW">
 			<Text>+{Amount} Embarked Combat Strength</Text>
 		</Row>
-
+		<Row Tag="LOC_ABILITY_GERMANIA_GOLD_ON_UNIT_DEFEAT_PREVIEW">
+			<Text>Gain Gold equal to 50% of the defeated unit's strength</Text>
+		</Row>
 
 	</EnglishText>
 </Database>
+

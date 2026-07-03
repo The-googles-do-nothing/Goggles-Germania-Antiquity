@@ -58,7 +58,6 @@
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_MIDGARD" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_GERMANIA_FISHING_GREAT_WORKS_SLOTS" UnlockDepth="2"/>
 
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_GERMANIA_MOD_CELEBRATION_COMMANDER_XP" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_GERMANIA_MOD_GRANT_UNIT_HERMANN" UnlockDepth="1"/>
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_GERMANIA_WULFAZ" TargetKind="KIND_MODIFIER" TargetType="MOD_JEC_GERMANIA_CELEBRATION_LENGTH" UnlockDepth="1"/>
 
 	</ProgressionTreeNodeUnlocks>
