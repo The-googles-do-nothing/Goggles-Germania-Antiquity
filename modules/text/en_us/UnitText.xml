@@ -22,13 +22,13 @@
 			<Text>Boar Warrior</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_BASE_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. Deals extra damage when attacking. Replaces Cavalry.</Text>
+			<Text>Germania Unique Infantry Unit. Movement restored when in vegetated terrain. Replaces Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. Deals extra damage when attacking. Replaces Cavalry.</Text>
+			<Text>Germania Unique Infantry Unit. Movement restored when in vegetated terrain. Replaces Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BOAR_WARRIOR_JEC_2_DESCRIPTION">
-			<Text>Tier 2 Germania Unique Infantry Unit. Deals extra damage when attacking. Replaces Cavalry.</Text>
+			<Text>Tier 2 Germania Unique Infantry Unit. Movement restored when in vegetated terrain. Replaces Cavalry.</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_WOLF_WARRIOR_JEC_NAME">

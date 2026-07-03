@@ -43,11 +43,20 @@
 		<String context="Preview">LOC_ABILITY_GERMANIA_COMBAT_STRENGTH_BIOME_JEC_PREVIEW</String>
 	</Modifier>
 
-
 	<Modifier id="MOD_GERMANIA_GOLD_ON_UNIT_DEFEAT_JEC" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="PercentDefeatedStrength">50</Argument>
 		<String context="Preview">LOC_ABILITY_GERMANIA_GOLD_ON_UNIT_DEFEAT_JEC_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_GERMANIA_JEC_RESTORE_MOVEMENT_VEGETATED_JEC" collection="COLLECTION_OWNER" effect="EFFECT_RESTORE_UNIT_MOVEMENT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES">
+				<Argument name="FeatureClassType">FEATURE_CLASS_VEGETATED</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="MovementOnly">true</Argument>
+		<Argument name="RestoreAfterMoving">true</Argument>
 	</Modifier>
 
 </GameEffects>
