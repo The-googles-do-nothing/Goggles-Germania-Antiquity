@@ -122,7 +122,7 @@
 					<Item>data/units-shared.xml</Item>
 					<Item>data/units-shared-gameeffects.xml</Item>
 					<Item>data/unit-promotions-antiquity.xml</Item>
-					<Item>data/unit-promotions-gameeffects-antiquity.xml</Item>
+					<Item>data/unit-promotions-antiquity-gameeffects.xml</Item>
                 </UpdateDatabase>
 
                 <ImportFiles>

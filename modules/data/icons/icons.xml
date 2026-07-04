@@ -20,7 +20,19 @@
 		</Row>
 		<Row>
 			<ID>CIVILIZATION_GERMANIA_JEC</ID>
+			<Context>BACKGROUND_VERT</Context>
+			<Path>fs://game/goggles_civ_germania/icons/lsbg_germania_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_GERMANIA_JEC</ID>
 			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_germania/icons/lsbg_germania_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_GERMANIA_JEC</ID>
+			<Context>BACKGROUND_VERT</Context>
 			<Path>fs://game/goggles_civ_germania/icons/lsbg_germania_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
