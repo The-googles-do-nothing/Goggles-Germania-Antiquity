@@ -85,9 +85,6 @@
 	<StartBiasBiomes>
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" BiomeType="BIOME_TUNDRA" Score="100"/>
 	</StartBiasBiomes>
-	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" TerrainType="TERRAIN_MOUNTAIN" Score="25"/>
-	</StartBiasTerrains>
 	<StartBiasFeatureClasses>
 		<Row CivilizationType="CIVILIZATION_GERMANIA_JEC" FeatureClassType="FEATURE_CLASS_VEGETATED" Score="5"/>
 	</StartBiasFeatureClasses>
