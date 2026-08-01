@@ -10,18 +10,18 @@
 		<!-- Civ Unique Military -->
 		<Row UnitType="UNIT_BERSERKER_JEC" Name="LOC_UNIT_BERSERKER_JEC_NAME" Description="LOC_UNIT_BERSERKER_JEC_DESCRIPTION" Tier="1" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
 		<Row UnitType="UNIT_BERSERKER_JEC_2" Name="LOC_UNIT_BERSERKER_JEC_2_NAME" Description="LOC_UNIT_BERSERKER_JEC_2_DESCRIPTION" Tier="2" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
-		<Row UnitType="UNIT_BERSERKER_JEC_3" Name="LOC_UNIT_BERSERKER_JEC_3_NAME" Description="LOC_UNIT_BERSERKER_JEC_3_DESCRIPTION" Tier="3" Maintenance="6" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true"/>
+		<Row UnitType="UNIT_BERSERKER_JEC_3" Name="LOC_UNIT_BERSERKER_JEC_3_NAME" Description="LOC_UNIT_BERSERKER_JEC_3_DESCRIPTION" Tier="3" Maintenance="6" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_GERMANIA_JEC"/>
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_BERSERKER_JEC" Combat="35"/>
-		<Row UnitType="UNIT_BERSERKER_JEC_2" Combat="40"/>
-		<Row UnitType="UNIT_BERSERKER_JEC_3" Combat="45"/>
+		<Row UnitType="UNIT_BERSERKER_JEC" Combat="40"/>
+		<Row UnitType="UNIT_BERSERKER_JEC_2" Combat="45"/>
+		<Row UnitType="UNIT_BERSERKER_JEC_3" Combat="50"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_BERSERKER_JEC" YieldType="YIELD_PRODUCTION" Cost="130"/>
-		<Row UnitType="UNIT_BERSERKER_JEC_2" YieldType="YIELD_PRODUCTION" Cost="170"/>
-		<Row UnitType="UNIT_BERSERKER_JEC_3" YieldType="YIELD_PRODUCTION" Cost="220"/>
+		<Row UnitType="UNIT_BERSERKER_JEC" YieldType="YIELD_PRODUCTION" Cost="170"/>
+		<Row UnitType="UNIT_BERSERKER_JEC_2" YieldType="YIELD_PRODUCTION" Cost="210"/>
+		<Row UnitType="UNIT_BERSERKER_JEC_3" YieldType="YIELD_PRODUCTION" Cost="260"/>
 	</Unit_Costs>
 	<UnitUpgrades>
 		<!-- Civ Unique Military -->
@@ -30,9 +30,9 @@
 	</UnitUpgrades>
 	<UnitReplaces>
 		<!-- Civ Unique Military -->
-		<Row CivUniqueUnitType="UNIT_BERSERKER_JEC" ReplacesUnitType="UNIT_SWORDSMAN"/>
-		<Row CivUniqueUnitType="UNIT_BERSERKER_JEC_2" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
-		<Row CivUniqueUnitType="UNIT_BERSERKER_JEC_3" ReplacesUnitType="UNIT_PIKEMAN"/>
+		<Row CivUniqueUnitType="UNIT_BERSERKER_JEC" ReplacesUnitType="UNIT_COURSER"/>
+		<Row CivUniqueUnitType="UNIT_BERSERKER_JEC_2" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_BERSERKER_JEC_3" ReplacesUnitType="UNIT_LANCER"/>
 	</UnitReplaces>
 	<Unit_TransitionRetains>
 	</Unit_TransitionRetains>
@@ -71,7 +71,7 @@
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC"/>
-		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_BERSERKER_JEC_EMBARKED_STRENGTH"/>
+		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_GERMANIA_JEC_RESTORE_MOVEMENT_VEGETATED_JEC"/>
 		<!-- greatperson -->
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
@@ -80,6 +80,7 @@
 		<!-- Civ Unique Military -->
 		<Row UnitType="UNIT_BERSERKER_JEC" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_BERSERKER_JEC_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_BERSERKER_JEC_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 	</Unit_Advisories>
 	<AIUnitPrioritizedActions>
 

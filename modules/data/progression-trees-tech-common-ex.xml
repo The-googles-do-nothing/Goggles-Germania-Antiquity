@@ -9,8 +9,8 @@
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
-        <Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_BERSERKER_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_BERSERKER_JEC_3" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+        <Row ProgressionTreeNodeType="NODE_TECH_EX_SHIPBUILDING" TargetKind="KIND_UNIT" TargetType="UNIT_BERSERKER_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_GUNPOWDER" TargetKind="KIND_UNIT" TargetType="UNIT_BERSERKER_JEC_3" UnlockDepth="1" RequiredTraitType="TRAIT_GERMANIA_JEC"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 
