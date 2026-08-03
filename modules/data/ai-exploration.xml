@@ -32,16 +32,13 @@
 		<Row ListType="Germania Budget Biases" Item="AI_BUDGET_EXPANSION" Value="200"/>
 		<Row ListType="Germania PseudoYield Biases" Item="PSEUDOYIELD_BUILD_QUEUE_IN_CITY" Value="-25"/>
 		<Row ListType="Germania PseudoYield Biases" Item="PSEUDOYIELD_NEW_CITY" Value="50"/>
-		<Row ListType="Germania Government Bias" Item="GOVERNMENT_DESPOTISM" Value="50"/>
+		<Row ListType="Germania Government Bias" Item="GOVERNMENT_FEUDAL_MONARCHY" Value="50"/>
 		<Row ListType="Germania Constructibles Biases" Item="BUILDING_HERRENHOFE_JEC" Value="200" />
 		<Row ListType="Germania Constructibles Biases" Item="WONDER_HASELGEBRIGE_SALT_MINE" Value="50"/>
 		<Row ListType="Germania Unit Biases" Item="UNIT_KUNINGAZ_JEC" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_JEC" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_JEC_2" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_SUEBI_JEC_3" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_BOAR_WARRIOR_JEC" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_BOAR_WARRIOR_JEC_2" Value="50"/>
-		<Row ListType="Germania Unit Biases" Item="UNIT_FOLC_JEC" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_BERSERKER_JEC" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_BERSERKER_JEC_2" Value="50"/>
+		<Row ListType="Germania Unit Biases" Item="UNIT_BERSERKER_JEC_3" Value="50"/>
 		<Row ListType="Germania Tag Biases" Item="MILITARY" Value="400"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->
