@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<Modifier id="MOD_SUEBI_JEC_SPLASH_DAMAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_SPLASH_DAMAGE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
+		</SubjectRequirements>
 		<Argument name="Percent">25</Argument>
 	</Modifier>
-
-
 </GameEffects>
