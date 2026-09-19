@@ -3,19 +3,19 @@
 	<EnglishText>
 		<!-- Units -->
 		<Row Tag="LOC_UNIT_BERSERKER_JEC_NAME">
-			<Text>BERSERKER</Text>
+			<Text>Berserker</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BERSERKER_JEC_BASE_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. Increased Embarked Strength and Movement. Movement restored when in vegetated terrain.</Text>
+			<Text>Germania Unique Infantry Unit. Increased Embarked Movement. Movement restored when in vegetated terrain during celebrations. Replaces Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BERSERKER_JEC_DESCRIPTION">
-			<Text>Germania Unique Infantry Unit. Increased Embarked Strength and Movement. Movement restored when in vegetated terrain.</Text>
+			<Text>Germania Unique Infantry Unit. Increased Embarked Movement. Movement restored when in vegetated terrain during celebrations. Replaces Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BERSERKER_JEC_2_DESCRIPTION">
-			<Text>Tier 2 Germania Unique Infantry Unit. Increased Embarked Strength and Movement. Movement restored when in vegetated terrain.</Text>
+			<Text>Tier 2 Germania Unique Infantry Unit. Increased Embarked Movement. Movement restored when in vegetated terrain during celebrations. Replaces Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BERSERKER_JEC_3_DESCRIPTION">
-			<Text>Tier 3 Germania Unique Infantry Unit. Increased Embarked Strength and Movement. Movement restored when in vegetated terrain.</Text>
+			<Text>Tier 3 Germania Unique Infantry Unit. Increased Embarked Movement. Movement restored when in vegetated terrain during celebrations. Replaces Cavalry.</Text>
 		</Row>
 
 	</EnglishText>

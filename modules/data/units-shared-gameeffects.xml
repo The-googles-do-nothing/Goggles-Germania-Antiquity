@@ -59,4 +59,11 @@
 		<Argument name="RestoreAfterMoving">true</Argument>
 	</Modifier>
 
+	<Modifier id="MOD_GERMANIA_MOD_HEAL_ANYWHERE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+	</Modifier>
+
 </GameEffects>
