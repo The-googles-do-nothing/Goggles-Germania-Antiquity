@@ -71,7 +71,7 @@
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_GERMANIA_EMBARKED_MOVEMENT_JEC"/>
-		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_GERMANIA_JEC_RESTORE_MOVEMENT_VEGETATED_JEC"/>
+		<Row UnitAbilityType="ABILITY_BERSERKER_JEC" ModifierId="MOD_GERMANIA_MOD_ADVANCED_PILLAGE"/>
 		<!-- greatperson -->
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>

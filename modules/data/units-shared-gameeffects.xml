@@ -54,16 +54,14 @@
 			<Requirement type="REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES">
 				<Argument name="FeatureClassType">FEATURE_CLASS_VEGETATED</Argument>
 			</Requirement>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
 		</SubjectRequirements>
 		<Argument name="MovementOnly">true</Argument>
 		<Argument name="RestoreAfterMoving">true</Argument>
 	</Modifier>
 
-	<Modifier id="MOD_GERMANIA_MOD_HEAL_ANYWHERE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE"/>
-		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
+	<Modifier id="MOD_GERMANIA_MOD_ADVANCED_PILLAGE" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_ADVANCED_PILLAGING">
+		<Argument name="UseAdvancedPillaging">true</Argument>
 	</Modifier>
 
 </GameEffects>
