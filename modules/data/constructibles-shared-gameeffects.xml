@@ -2,7 +2,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<Modifier id="HERRENHOFE_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+	<Modifier id="HERRENHOFE_PURCHASE_WAREHOUSE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_HERRENHOFE_JEC</Argument>
+			</Requirement>
+		</SubjectRequirements>
 		<Argument name="Tag">WAREHOUSE</Argument>
 		<Argument name="Percent">100</Argument>
 	</Modifier>
