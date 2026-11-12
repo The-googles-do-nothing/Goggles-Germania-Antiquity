@@ -6,7 +6,7 @@
 			<Text>Folc</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FOLC_JEC_DESCRIPTION">
-			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Folc received is random. Each Folc can only be received once. Cost increases per Folc trained.</Text>
+			<Text>A Great Person with one charge. Receive one when you enter a [icon:CELEBRATION] [TIP:LOC_PEDIA_CONCEPTS_CELEBRATIONS_TOOLTIP]Celebration[/TIP], and the specific Folc received is random. Each Folc can only be received once.</Text>
 		</Row>
 		<Replace Tag="LOC_GREATPERSON_BARRACKS_PRODUCTION">
 			<Text>The Barracks provides +{1_Amount}[icon:YIELD_PRODUCTION] Production in this Settlement.</Text>

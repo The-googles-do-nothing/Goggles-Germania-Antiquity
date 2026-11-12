@@ -13,4 +13,14 @@
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_GERMANIA_DESCRIPTION</String>
 	</Modifier>
 	
+	<Modifier id="TRAIT_MOD_GRANT_FOLC_CELEBRATION" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_IN_GOLDEN_AGE">
+				<Argument name="Repeatable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitType">UNIT_FOLC_JEC</Argument>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+
 </GameEffects>

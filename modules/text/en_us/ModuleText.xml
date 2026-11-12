@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<InsertOrIgnore Tag="LOC_MODULE_GERMANIA_NAME">
+		<Row Tag="LOC_MODULE_GERMANIA_NAME">
 			<Text>Germania</Text>
-		</InsertOrIgnore>
-		<InsertOrIgnore Tag="LOC_MODULE_GERMANIA_DESCRIPTION">
+		</Row>
+		<Row Tag="LOC_MODULE_GERMANIA_DESCRIPTION">
 			<Text>Germania Antiquity Age</Text>
-		</InsertOrIgnore>
+		</Row>
 		<InsertOrIgnore Tag="LOC_AUTHORS_JEC">
 			<Text>The_Goggles_Do_Nothing</Text>
 		</InsertOrIgnore>

@@ -11,8 +11,7 @@
 	<Properties>
 		<Name>LOC_MODULE_GERMANIA_NAME</Name>
 		<Description>LOC_MODULE_GERMANIA_DESCRIPTION</Description>
-		<Authors>LOC_AUTHORS_JEC</Authors>
-		<Package>DLC</Package>
+		<Authors>The_Goggles_Do_Nothing</Authors>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -106,9 +105,10 @@
         <ActionGroup id="base-game-main-Germania" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
+					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/civilizations-shared.xml</Item>
 					<Item>data/civilizations-shared-gameeffects.xml</Item>
-					<Item>data/civilizations-legacy.xml</Item>
+
 					<Item>data/constructibles-shared-gameeffects.xml</Item>
 					<Item>data/constructibles-shared.xml</Item>
 					<Item>data/loading-info.xml</Item>
@@ -261,10 +261,6 @@
 					<Item>text/en_us/UnlockText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
-                <UpdateVisualRemaps>
-                    <Item>data/visual-remap.xml</Item>
-                </UpdateVisualRemaps>
-
 			</Actions>
 		</ActionGroup>
 	</ActionGroups>

@@ -23,4 +23,21 @@
         <Argument name="Amount">1</Argument>
     </Modifier>
 
+
+<!-- 
+    <RequirementSet id="GERMANIA_JEC_REQSET_NARRATIVE">
+        <Requirement type="REQUIREMENT_COLLECTION_ANY_MET">
+            <Argument name="CollectionType">COLLECTION_PLAYER_CITIES</Argument>
+            <Argument name="RequirementSetId">SUBREQSET_7067A_NARRATIVE</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="GERMANIA_JEC_SUBREQSET_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_X_TOWNS_PRODUCING_PROJECT">
+            <Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
+            <Argument name="Count">1</Argument>
+            <Argument name="DistantLandsOnly">True</Argument>
+        </Requirement>
+    </RequirementSet> -->
+
+
 </GameEffects>
